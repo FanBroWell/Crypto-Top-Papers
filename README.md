@@ -472,13 +472,12 @@ Papers that release a dataset or benchmark (also listed under their task above).
 
 This list is updated continuously, and contributions are welcome.
 
-**Requirement**: the paper is accepted at one of the conferences listed at the top.
+**Requirement**: The paper is accepted at one of the conferences listed at the top.
 
 **Steps**:
 
 1. Fork this repository and clone your fork.
-2. Add the paper to [`papers.yaml`](papers.yaml) (copy an existing entry and edit it).
-3. Push to your fork and open a pull request.
+2. Push to your fork and open a pull request.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the entry format.
 
