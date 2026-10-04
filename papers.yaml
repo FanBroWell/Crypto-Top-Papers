@@ -1,0 +1,1367 @@
+# Crypto Top Papers — data file.
+# Edit this file, then run `python scripts/build_readme.py` to regenerate README.md.
+# Field reference: see CONTRIBUTING.md.
+updated: '2026-10-04'
+papers:
+- title: "Market-Aware Event Timeline Summarization: Integrating Price Signals to Improve Financial News Understanding"
+  venue: AAAI
+  year: 2026
+  track: main
+  category: forecasting
+  tags: [LLM, NLP]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1609/aaai.v40i48.42370"
+- title: "CTBench: Cryptocurrency Time Series Generation Benchmark"
+  venue: ICLR
+  year: 2026
+  track: main
+  category: forecasting
+  tags: [Generative, Time-Series]
+  assets: [Crypto]
+  paper: "https://openreview.net/forum?id=RzT2sombPD"
+  arxiv: '2508.02758'
+  dataset: true
+- title: Probabilistic Multivariate Time Series Forecasting with Diffusion Copulas
+  venue: ICLR
+  year: 2026
+  track: workshop
+  workshop: Workshop on Advances in Financial AI
+  category: forecasting
+  tags: [Diffusion, Time-Series]
+  assets: [Crypto]
+  paper: "https://arxiv.org/abs/2605.19685"
+  arxiv: '2605.19685'
+- title: "Towards Event-Aware Forecasting in DeFi: Insights from On-chain Automated Market Maker Protocols"
+  venue: KDD
+  year: 2026
+  track: main
+  category: forecasting
+  tags: [Time-Series]
+  assets: [DEX]
+  paper: "https://doi.org/10.1145/3770855.3817502"
+  code: "https://github.com/finbrain-lab-hkustgz/Deep-AMM-Events"
+  arxiv: '2604.20374'
+- title: Generating Financial Time Series by Matching Random Convolutional Features
+  venue: NeurIPS
+  year: 2026
+  track: main
+  category: forecasting
+  tags: [Generative, Time-Series]
+  assets: [Crypto]
+  paper: "https://openreview.net/forum?id=tLVW1Y9hBz"
+  arxiv: '2606.05138'
+  general: true
+- title: "From Patterns to Predictions: A Shapelet-Based Framework for Directional Forecasting in Noisy Financial Markets"
+  venue: CIKM
+  year: 2025
+  track: main
+  category: forecasting
+  tags: [Shapelet, Time-Series]
+  assets: [Bitcoin]
+  paper: "https://doi.org/10.1145/3746252.3761250"
+  arxiv: '2509.15040'
+  general: true
+- title: "FinTSBridge: A New Evaluation Suite for Real-world Financial Prediction with Advanced Time Series Models"
+  venue: ICLR
+  year: 2025
+  track: workshop
+  workshop: Workshop on Advances in Financial AI
+  category: forecasting
+  tags: [Time-Series]
+  assets: [Crypto]
+  paper: "https://arxiv.org/abs/2503.06928"
+  arxiv: '2503.06928'
+  dataset: true
+  general: true
+- title: "CryptoMixer: Fine-grained market information-aware MLP Networks for Individual Cryptocurrency Trading Prediction"
+  venue: KDD
+  year: 2025
+  track: main
+  category: forecasting
+  tags: [MLP, Time-Series]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3711896.3736900"
+  code: "https://github.com/aqua111000/CryptoMixer"
+- title: Cryptocurrency Price Forecasting using Variational Autoencoder with Versatile Quantile Modeling
+  venue: CIKM
+  year: 2024
+  track: main
+  category: forecasting
+  tags: [Generative, Time-Series]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3627673.3680027"
+- title: "Trade When Opportunity Comes: Price Movement Forecasting via Locality-Aware Attention and Iterative Refinement Labeling"
+  venue: IJCAI
+  year: 2024
+  track: main
+  category: forecasting
+  tags: [Transformer]
+  assets: [Crypto]
+  paper: "https://doi.org/10.24963/ijcai.2024/678"
+  arxiv: '2107.11972'
+  general: true
+- title: "COMET: NFT Price Prediction with Wallet Profiling"
+  venue: KDD
+  year: 2024
+  track: main
+  category: forecasting
+  tags: [Time-Series, Graph]
+  assets: [NFT]
+  paper: "https://doi.org/10.1145/3637528.3671621"
+  arxiv: '2405.10640'
+- title: "ArchetypeTrader: Reinforcement Learning for Selecting and Refining Learnable Strategic Archetypes in Quantitative Trading"
+  venue: AAAI
+  year: 2026
+  track: main
+  category: trading
+  tags: [RL]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1609/aaai.v40i34.40166"
+  code: "https://github.com/yfcck/ArchetypeTrader"
+- title: "TRADER: Real-time Arbitrage Detection via Negative Cycles on Dynamic Graphs"
+  venue: ICDE
+  year: 2026
+  track: main
+  category: trading
+  tags: [Graph-Algorithms]
+  assets: [DEX]
+  paper: "https://doi.org/10.1109/icde65706.2026.00141"
+- title: Trade in Minutes! Rationality-Driven Agentic System for Quantitative Financial Trading
+  venue: ICLR
+  year: 2026
+  track: main
+  category: trading
+  tags: [LLM, Agent]
+  assets: [Crypto]
+  paper: "https://openreview.net/forum?id=ROEwZAxqyS"
+  arxiv: '2510.04787'
+  general: true
+- title: "FineFT: Efficient and Risk-Aware Ensemble Reinforcement Learning for Futures Trading"
+  venue: KDD
+  year: 2026
+  track: main
+  category: trading
+  tags: [RL]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3770854.3780187"
+  arxiv: '2512.23773'
+- title: Market Regime Council for Dynamic Credit Assignment in Multi-Agent LLM Decision Systems
+  venue: NeurIPS
+  year: 2026
+  track: main
+  category: trading
+  tags: [LLM, Agent]
+  assets: [Crypto]
+  paper: "https://openreview.net/forum?id=xuhyMmn0D0"
+  arxiv: '2605.24490'
+- title: Analysis of CEX-DEX Arbitrage Opportunities with Hidden Markov Models
+  venue: WWW
+  year: 2026
+  track: main
+  category: trading
+  tags: [HMM]
+  assets: [DEX]
+  paper: "https://doi.org/10.1145/3774904.3792185"
+- title: Learning-Based Optimization of Atomic Arbitrage in Decentralized Financial Systems
+  venue: WWW
+  year: 2026
+  track: companion
+  category: trading
+  tags: [Optimization]
+  assets: [DEX]
+  paper: "https://doi.org/10.1145/3774905.3794707"
+- title: "Resisting Manipulative Bots in Meme Coin Copy Trading: A Multi-Agent Approach with Chain-of-Thought Reasoning"
+  venue: WWW
+  year: 2026
+  track: main
+  category: trading
+  tags: [LLM, Multi-Agent]
+  assets: [Memecoin]
+  paper: "https://arxiv.org/abs/2601.08641"
+  arxiv: '2601.08641'
+- title: Adaptive Bidirectional State Space Model for High-frequency Portfolio Management
+  venue: CIKM
+  year: 2025
+  track: main
+  category: trading
+  tags: [SSM, RL]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3746252.3761246"
+  general: true
+- title: Exploring LLM Cryptocurrency Trading Through Fact-Subjectivity Aware Reasoning
+  venue: ICLR
+  year: 2025
+  track: workshop
+  workshop: Workshop on Advances in Financial AI
+  category: trading
+  tags: [LLM]
+  assets: [Crypto]
+  paper: "https://arxiv.org/abs/2410.12464"
+  code: "https://github.com/HaeSe0ng/FS-ReasoningAgent"
+  arxiv: '2410.12464'
+- title: Pareto-Optimality, Smoothness, and Stochasticity in Learning-Augmented One-Max-Search
+  venue: ICML
+  year: 2025
+  track: main
+  category: trading
+  tags: [Online-Algorithms]
+  assets: [Bitcoin]
+  paper: "https://openreview.net/forum?id=ZTOVlPC5Vf"
+  arxiv: '2502.05720'
+  general: true
+- title: "OPHR: Mastering Volatility Trading with Multi-Agent Deep Reinforcement Learning"
+  venue: NeurIPS
+  year: 2025
+  track: main
+  category: trading
+  tags: [RL, Multi-Agent]
+  assets: [Bitcoin, Ethereum]
+  paper: "https://openreview.net/forum?id=2p4AtivyZz"
+  code: "https://github.com/Edwicn/OPHR-MasteringVolatilityTradingwithMultiAgentDeepReinforcementLearning"
+- title: "Orchestration Framework for Financial Agents: From Algorithmic Trading to Agentic Trading"
+  venue: NeurIPS
+  year: 2025
+  track: workshop
+  workshop: Workshop on Generative AI in Finance
+  category: trading
+  tags: [LLM, Agent]
+  assets: [Crypto]
+  paper: "https://arxiv.org/abs/2512.02227"
+  code: "https://github.com/Open-Finance-Lab/AgenticTrading"
+  arxiv: '2512.02227'
+  general: true
+- title: "HedgeAgents: A Balanced-aware Multi-agent Financial Trading System"
+  venue: WWW
+  year: 2025
+  track: companion
+  category: trading
+  tags: [LLM, Agent]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3701716.3715232"
+  code: "https://github.com/hedgeagents/hedgeagents.github.io"
+  arxiv: '2502.13165'
+  general: true
+- title: "EarnHFT: Efficient Hierarchical Reinforcement Learning for High Frequency Trading"
+  venue: AAAI
+  year: 2024
+  track: main
+  category: trading
+  tags: [RL]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1609/aaai.v38i13.29384"
+  code: "https://github.com/TradeMaster-NTU/EarnHFT"
+  arxiv: '2309.12891'
+- title: "CryptoTrade: A Reflective LLM-based Agent to Guide Zero-shot Cryptocurrency Trading"
+  venue: EMNLP
+  year: 2024
+  track: main
+  category: trading
+  tags: [LLM, Agent]
+  assets: [Crypto]
+  paper: "https://doi.org/10.18653/v1/2024.emnlp-main.63"
+  code: "https://github.com/Xtra-Computing/CryptoTrade"
+- title: "MacroHFT: Memory Augmented Context-aware Reinforcement Learning On High Frequency Trading"
+  venue: KDD
+  year: 2024
+  track: main
+  category: trading
+  tags: [RL]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3637528.3672064"
+  code: "https://github.com/ZONG0004/MacroHFT"
+  arxiv: '2406.14537'
+- title: "Scam2Prompt: A Scalable Framework for Auditing Malicious Scam Endpoints in Production LLMs"
+  venue: ICML
+  year: 2026
+  track: main
+  category: fraud
+  tags: [LLM]
+  assets: [Web3]
+  paper: "https://openreview.net/forum?id=jEQQBE30m1"
+  code: "https://github.com/Scam2Prompt/Scam2Prompt"
+  arxiv: '2509.02372'
+  general: true
+- title: Temporal Motif-aware Graph Test-time Adaptation for OOD Blockchain Anomaly Detection
+  venue: IJCAI
+  year: 2026
+  track: main
+  category: fraud
+  tags: [GNN, Temporal-Graph]
+  assets: [Crypto]
+  paper: "https://doi.org/10.24963/ijcai.2026/802"
+  code: "https://github.com/LuoXishuang0712/TEMG-TTA"
+- title: "TDHGNN: A Temporal Directed Hypergraph Neural Network for Bitcoin Fraud Detection"
+  venue: SIGIR
+  year: 2026
+  track: main
+  category: fraud
+  tags: [Hypergraph, Temporal-Graph]
+  assets: [Bitcoin]
+  paper: "https://doi.org/10.1145/3805712.3809899"
+  code: "https://github.com/KellyGong/TDHGNN"
+- title: Evasion Under Blockchain Sanctions
+  venue: WWW
+  year: 2026
+  track: main
+  category: fraud
+  tags: [Measurement]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3774904.3792715"
+  arxiv: '2507.11721'
+- title: Multi-Modal Enhanced Graph Transfer Learning for Digital Finance Fraud Detection
+  venue: WWW
+  year: 2026
+  track: main
+  category: fraud
+  tags: [GNN, Multimodal, Transfer-Learning]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3774904.3792946"
+- title: Understanding Post-Exploit Laundering Behavior on Ethereum
+  venue: WWW
+  year: 2026
+  track: main
+  category: fraud
+  tags: [Measurement]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3774904.3792918"
+- title: "TEMPER: Capturing Consistent and Fluctuating TEMPoral User Behaviour for EtheReum Phishing Scam Detection"
+  venue: KDD
+  year: 2025
+  track: main
+  category: fraud
+  tags: [Temporal-Graph]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3690624.3709399"
+- title: "BlockScan: Detecting Anomalies in Blockchain Transactions"
+  venue: NeurIPS
+  year: 2025
+  track: main
+  category: fraud
+  tags: [Transformer, LLM]
+  assets: [Crypto]
+  paper: "https://openreview.net/forum?id=URB690A5r5"
+  arxiv: '2410.04039'
+- title: "CATALOG: Exploiting Joint Temporal Dependencies for Enhanced Phishing Detection on Ethereum"
+  venue: WWW
+  year: 2025
+  track: main
+  category: fraud
+  tags: [Temporal-Graph]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3696410.3714903"
+- title: "Hunting in the Dark Forest: A Pre-trained Model for On-chain Attack Transaction Detection in Web3"
+  venue: WWW
+  year: 2025
+  track: main
+  category: fraud
+  tags: [Pre-training, Transformer]
+  assets: [EVM]
+  paper: "https://doi.org/10.1145/3696410.3714928"
+  code: "https://github.com/wuzhy1ng/attack_trans_detection_www25"
+- title: "Safeguarding Blockchain Ecosystem: Understanding and Detecting Attack Transactions on Cross-chain Bridges"
+  venue: WWW
+  year: 2025
+  track: main
+  category: fraud
+  tags: [Measurement]
+  assets: [Cross-chain]
+  paper: "https://doi.org/10.1145/3696410.3714604"
+  arxiv: '2410.14493'
+- title: "Serial Scammers and Attack of the Clones: How Scammers Coordinate Multiple Rug Pulls on Decentralized Exchanges"
+  venue: WWW
+  year: 2025
+  track: main
+  category: fraud
+  tags: [Measurement]
+  assets: [DEX]
+  paper: "https://doi.org/10.1145/3696410.3714919"
+  arxiv: '2412.10993'
+- title: "The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams"
+  venue: WWW
+  year: 2025
+  track: main
+  category: fraud
+  tags: [Measurement]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3696410.3714588"
+- title: Effective Illicit Account Detection on Large Cryptocurrency MultiGraphs
+  venue: CIKM
+  year: 2024
+  track: main
+  category: fraud
+  tags: [GNN]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3627673.3679707"
+  code: "https://github.com/TommyDzh/DIAM"
+  arxiv: '2309.02460'
+- title: "ARTEMIS: Detecting Airdrop Hunters in NFT Markets with a Graph Learning System"
+  venue: WWW
+  year: 2024
+  track: main
+  category: fraud
+  tags: [GNN]
+  assets: [NFT]
+  paper: "https://doi.org/10.1145/3589334.3645597"
+- title: "DenseFlow: Spotting Cryptocurrency Money Laundering in Ethereum Transaction Graphs"
+  venue: WWW
+  year: 2024
+  track: main
+  category: fraud
+  tags: [Graph-Mining]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3589334.3645692"
+- title: Detecting Financial Bots on the Ethereum Blockchain
+  venue: WWW
+  year: 2024
+  track: companion
+  category: fraud
+  tags: [Machine-Learning]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3589335.3651959"
+  arxiv: '2403.19530'
+- title: Identifying Risky Vendors in Cryptocurrency P2P Marketplaces
+  venue: WWW
+  year: 2024
+  track: main
+  category: fraud
+  tags: [Machine-Learning]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3589334.3645475"
+- title: "Interface Illusions: Uncovering the Rise of Visual Scams in Cryptocurrency Wallets"
+  venue: WWW
+  year: 2024
+  track: main
+  category: fraud
+  tags: [Measurement]
+  assets: [Wallet]
+  paper: "https://doi.org/10.1145/3589334.3645348"
+- title: Towards Understanding Crypto-Asset Risks on Ethereum Caused by Key Leakage on the Internet
+  venue: WWW
+  year: 2024
+  track: companion
+  category: fraud
+  tags: [Measurement]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3589335.3651573"
+- title: Unveiling Wash Trading in Popular NFT Markets
+  venue: WWW
+  year: 2024
+  track: companion
+  category: fraud
+  tags: [Measurement]
+  assets: [NFT]
+  paper: "https://doi.org/10.1145/3589335.3651580"
+  arxiv: '2403.10361'
+- title: "ZipZap: Efficient Training of Language Models for Large-Scale Fraud Detection on Blockchain"
+  venue: WWW
+  year: 2024
+  track: main
+  category: fraud
+  tags: [Transformer, Pre-training]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3589334.3645352"
+  code: "https://github.com/git-disl/ZipZap"
+- title: "IGT4ETH: An Isotropic Pre-trained Graph Transformer for Ethereum Account Classification"
+  venue: AAAI
+  year: 2026
+  track: main
+  category: onchain
+  tags: [GNN, Pre-training]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1609/aaai.v40i28.39536"
+  code: "https://github.com/Camus-Code/IGT4ETH"
+- title: "RAMA: Resistance-Aware Multi-Hop Aggregation Graph Representation Learning for Robust Ethereum Account Classification"
+  venue: NeurIPS
+  year: 2026
+  track: main
+  category: onchain
+  tags: [GNN]
+  assets: [Ethereum]
+  paper: "https://openreview.net/forum?id=E2j4hTCc0W"
+- title: "TGweaver: Synthesizing Transaction Graphs for De-anonymization Analysis"
+  venue: WWW
+  year: 2026
+  track: main
+  category: onchain
+  tags: [Data-Synthesis]
+  assets: [Mixer]
+  paper: "https://doi.org/10.1145/3774904.3792318"
+- title: "Know Your Account: Double Graph Inference-Based Account De-Anonymization on Ethereum"
+  venue: ICDE
+  year: 2025
+  track: main
+  category: onchain
+  tags: [GNN]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1109/icde65448.2025.00102"
+  arxiv: '2411.18875'
+- title: "When LLM Meets Simplicial Complex: A Novel Graph Prompt Learning on Ethereum Transaction Networks"
+  venue: ICDM
+  year: 2025
+  track: main
+  category: onchain
+  tags: [LLM, GNN]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1109/icdm65498.2025.00148"
+- title: "Chainlet Orbits: Topological Address Embedding for Blockchain"
+  venue: KDD
+  year: 2025
+  track: main
+  category: onchain
+  tags: [Topological]
+  assets: [Bitcoin]
+  paper: "https://doi.org/10.1145/3690624.3709322"
+- title: "MiNT: Multi-Network Transfer Benchmark for Temporal Graph Learning"
+  venue: NeurIPS
+  year: 2025
+  track: D&B
+  category: onchain
+  tags: [Temporal-Graph, Transfer-Learning]
+  assets: [Ethereum]
+  paper: "https://openreview.net/forum?id=Za7IcsXIRV"
+  code: "https://github.com/benjaminnNgo/ScalingTGNs"
+  dataset: true
+- title: The Temporal Graph of Bitcoin Transactions
+  venue: NeurIPS
+  year: 2025
+  track: D&B
+  category: onchain
+  tags: [Temporal-Graph]
+  assets: [Bitcoin]
+  paper: "https://openreview.net/forum?id=Xs7JM4VGHv"
+  code: "https://github.com/B1AAB/EBA"
+  arxiv: '2510.20028'
+  dataset: true
+- title: "Optimizing Blockchain Analysis: Tackling Temporality and Scalability with an Incremental Approach with Metropolis-Hastings Random Walks"
+  venue: WSDM
+  year: 2025
+  track: main
+  category: onchain
+  tags: [Graph-Sampling]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3701551.3703521"
+  arxiv: '2501.12491'
+- title: "Gamblers or Delegatees: Identifying Hidden Participant Roles in Crypto Casinos"
+  venue: WWW
+  year: 2025
+  track: main
+  category: onchain
+  tags: [Measurement]
+  assets: [Crypto]
+  paper: "https://doi.org/10.1145/3696410.3714689"
+- title: "EX-Graph: A Pioneering Dataset Bridging Ethereum and X"
+  venue: ICLR
+  year: 2024
+  track: main
+  category: onchain
+  tags: [GNN]
+  assets: [Ethereum]
+  paper: "https://openreview.net/forum?id=juE0rWGCJW"
+  arxiv: '2310.01015'
+  dataset: true
+- title: "BitLINK: Temporal Linkage of Address Clusters in Bitcoin Blockchain"
+  venue: KDD
+  year: 2024
+  track: main
+  category: onchain
+  tags: [Clustering]
+  assets: [Bitcoin]
+  paper: "https://doi.org/10.1145/3637528.3672037"
+- title: "Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets"
+  venue: NeurIPS
+  year: 2024
+  track: D&B
+  category: onchain
+  tags: [GNN]
+  assets: [Multi-chain]
+  paper: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html"
+  code: "https://github.com/Xtra-Computing/Cryptocurrency-Graphs-of-graphs"
+  dataset: true
+- title: Anonymity Analysis of the Umbra Stealth Address Scheme on Ethereum
+  venue: WWW
+  year: 2024
+  track: companion
+  category: onchain
+  tags: [Privacy]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3589335.3651963"
+  arxiv: '2308.01703'
+- title: Deanonymizing Transactions Originating from Monero Tor Hidden Service Nodes
+  venue: WWW
+  year: 2024
+  track: companion
+  category: onchain
+  tags: [Privacy]
+  assets: [Monero]
+  paper: "https://doi.org/10.1145/3589335.3651487"
+- title: Exploring Unconfirmed Transactions for Effective Bitcoin Address Clustering
+  venue: WWW
+  year: 2024
+  track: main
+  category: onchain
+  tags: [Clustering]
+  assets: [Bitcoin]
+  paper: "https://doi.org/10.1145/3589334.3645684"
+  arxiv: '2303.01012'
+- title: "PRIME: Efficient Algorithm for Token Graph Routing Problem"
+  venue: ICDE
+  year: 2026
+  track: main
+  category: defi
+  tags: [Graph-Algorithms]
+  assets: [DEX]
+  paper: "https://doi.org/10.1109/icde65706.2026.00214"
+  arxiv: '2603.08337'
+- title: Context Binding and Reusable Leakage in Threshold Decryption
+  venue: NeurIPS
+  year: 2026
+  track: main
+  category: defi
+  tags: [Cryptography, Encrypted-Mempool]
+  paper: "https://openreview.net/forum?id=I8M8PZy2XG"
+- title: Leakage Thresholds for Sandwich Equilibria Under Partial Information
+  venue: NeurIPS
+  year: 2026
+  track: main
+  category: defi
+  tags: [Game-Theory]
+  assets: [DEX]
+  paper: "https://openreview.net/forum?id=yuiJS0iLhX"
+- title: "Benchmarking Temporal Web3 Intelligence: Lessons from the FinSurvival 2025 Challenge"
+  venue: WWW
+  year: 2026
+  track: companion
+  category: defi
+  tags: [Survival-Analysis]
+  assets: [DeFi]
+  paper: "https://doi.org/10.1145/3774905.3795449"
+  arxiv: '2602.23159'
+  dataset: true
+- title: Deterring A Small Collusion is All You Need
+  venue: WWW
+  year: 2026
+  track: main
+  category: defi
+  tags: [Mechanism-Design]
+  paper: "https://doi.org/10.1145/3774904.3792121"
+- title: "LiquidityPool: Game-Theoretic Analysis of Stakeholder Revenue in Ranking-Dependent DeFi"
+  venue: WWW
+  year: 2026
+  track: main
+  category: defi
+  tags: [Game-Theory]
+  assets: [DeFi]
+  paper: "https://doi.org/10.1145/3774904.3792260"
+- title: Airdrop Games
+  venue: IJCAI
+  year: 2025
+  track: main
+  category: defi
+  tags: [Game-Theory]
+  assets: [Token]
+  paper: "https://doi.org/10.24963/ijcai.2025/431"
+- title: Smart Contracts for Trustless Sampling of Correlated Equilibria
+  venue: IJCAI
+  year: 2025
+  track: main
+  category: defi
+  tags: [Game-Theory]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.24963/ijcai.2025/416"
+- title: "Private Order Flows and Builder Bidding Dynamics: The Road to Monopoly in Ethereum's Block Building Market"
+  venue: WWW
+  year: 2025
+  track: main
+  category: defi
+  tags: [Measurement, Game-Theory]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3696410.3714754"
+  arxiv: '2410.12352'
+- title: "Money Never Sleeps: Maximizing Liquidity Mining Yields in Decentralized Finance"
+  venue: KDD
+  year: 2024
+  track: main
+  category: defi
+  tags: [Optimization]
+  assets: [DeFi]
+  paper: "https://doi.org/10.1145/3637528.3671942"
+- title: Measuring Arbitrage Losses and Profitability of AMM Liquidity
+  venue: WWW
+  year: 2024
+  track: companion
+  category: defi
+  tags: [Measurement]
+  assets: [DEX]
+  paper: "https://doi.org/10.1145/3589335.3651961"
+  arxiv: '2404.05803'
+- title: "DMind Benchmark: Toward a Holistic Assessment of LLM Capabilities across the Web3 Domain"
+  venue: KDD
+  year: 2026
+  track: main
+  category: web3
+  tags: [LLM]
+  assets: [Web3]
+  paper: "https://doi.org/10.1145/3770855.3817512"
+  arxiv: '2504.16116'
+  dataset: true
+- title: "Decentralized in Name Only: The Centralization of DAO Labor"
+  venue: WWW
+  year: 2026
+  track: short
+  category: web3
+  tags: [Qualitative]
+  assets: [DAO]
+  paper: "https://hcmi.ee.torontomu.ca/publication/decentralized-in-name-only-centralization-dao-labor/"
+- title: "ShadowClone: Scalable Decentralized Identity with Cross-Domain Anonymity and Accountable Traceability"
+  venue: WWW
+  year: 2026
+  track: main
+  category: web3
+  tags: [Cryptography]
+  assets: [DID]
+  paper: "https://doi.org/10.1145/3774904.3792424"
+- title: "The Promise vs. Reality of NFT Decentralization: An Empirical Study of Storage Strategies and Defects"
+  venue: WWW
+  year: 2026
+  track: main
+  category: web3
+  tags: [Measurement]
+  assets: [NFT]
+  paper: "https://doi.org/10.1145/3774904.3792338"
+- title: "CoinCLIP: A Multimodal Framework for Assessing Viability in Web3 Memecoins"
+  venue: CIKM
+  year: 2025
+  track: main
+  category: web3
+  tags: [Multimodal]
+  assets: [Memecoin]
+  paper: "https://doi.org/10.1145/3746252.3760881"
+  arxiv: '2412.07591'
+- title: Equilibrium-Based NFT Marketplace Recommendation for NFTs with Breeding
+  venue: ICDM
+  year: 2025
+  track: main
+  category: web3
+  tags: [Recommendation, Game-Theory]
+  assets: [NFT]
+  paper: "https://doi.org/10.1109/icdm65498.2025.00094"
+  code: "https://github.com/jimmy-academia/BANTER"
+- title: Breeding-aware Revenue Maximization for NFT Viral Marketing on Social Networks
+  venue: KDD
+  year: 2025
+  track: main
+  category: web3
+  tags: [Influence-Maximization]
+  assets: [NFT]
+  paper: "https://doi.org/10.1145/3711896.3736867"
+- title: "Beyond Visual Confusion: Understanding How Inconsistencies in ENS Normalization Facilitate Homoglyph Attacks"
+  venue: WWW
+  year: 2025
+  track: main
+  category: web3
+  tags: [Measurement]
+  assets: [ENS]
+  paper: "https://doi.org/10.1145/3696410.3714675"
+- title: "Bridging Culture and Finance: A Multimodal Analysis of Memecoins in the Web3 Ecosystem"
+  venue: WWW
+  year: 2025
+  track: companion
+  category: web3
+  tags: [Multimodal]
+  assets: [Memecoin]
+  paper: "https://doi.org/10.1145/3701716.3715561"
+  code: "https://github.com/hwlongCUHK/Coin-Meme"
+  arxiv: '2412.04913'
+- title: Fully Anonymous Decentralized Identity Supporting Threshold Traceability with Practical Blockchain
+  venue: WWW
+  year: 2025
+  track: main
+  category: web3
+  tags: [Cryptography]
+  assets: [DID]
+  paper: "https://doi.org/10.1145/3696410.3714762"
+- title: "Linking Souls to Humans: Blockchain Accounts with Credible Anonymity for Web 3.0 Decentralized Identity"
+  venue: WWW
+  year: 2025
+  track: main
+  category: web3
+  tags: [Cryptography]
+  assets: [DID]
+  paper: "https://doi.org/10.1145/3696410.3714784"
+  arxiv: '2301.02102'
+- title: "NFTs as a Data-Rich Test Bed: Conspicuous Consumption and its Determinants"
+  venue: WWW
+  year: 2025
+  track: main
+  category: web3
+  tags: [Economics]
+  assets: [NFT]
+  paper: "https://doi.org/10.1145/3696410.3714724"
+  arxiv: '2503.17457'
+- title: Characterizing the Solana NFT Ecosystem
+  venue: WWW
+  year: 2024
+  track: companion
+  category: web3
+  tags: [Measurement]
+  assets: [Solana, NFT]
+  paper: "https://doi.org/10.1145/3589335.3651478"
+  arxiv: '2403.10879'
+- title: "Concentration of Power and Participation in Online Governance: the Ecosystem of Decentralized Autonomous Organizations"
+  venue: WWW
+  year: 2024
+  track: companion
+  category: web3
+  tags: [Measurement]
+  assets: [DAO]
+  paper: "https://doi.org/10.1145/3589335.3651481"
+- title: "IDEA-DAC: Integrity-Driven Editing for Accountable Decentralized Anonymous Credentials via ZK-JSON"
+  venue: WWW
+  year: 2024
+  track: main
+  category: web3
+  tags: [Cryptography]
+  assets: [DID]
+  paper: "https://doi.org/10.1145/3589334.3645658"
+  code: "https://github.com/Nullus-Labs/IDEA-DAC"
+- title: Investigations of Top-Level Domain Name Collisions in Blockchain Naming Services
+  venue: WWW
+  year: 2024
+  track: main
+  category: web3
+  tags: [Measurement]
+  assets: [ENS]
+  paper: "https://doi.org/10.1145/3589334.3645459"
+- title: Unveiling the Paradox of NFT Prosperity
+  venue: WWW
+  year: 2024
+  track: main
+  category: web3
+  tags: [Measurement]
+  assets: [NFT]
+  paper: "https://doi.org/10.1145/3589334.3645566"
+- title: "BugSweeper: Function-Level Detection of Smart Contract Vulnerabilities Using Graph Neural Networks"
+  venue: AAAI
+  year: 2026
+  track: main
+  category: smart-contract
+  tags: [GNN]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1609/aaai.v40i1.37021"
+- title: "EVM-QuestBench: An Execution-Grounded Benchmark for Natural-Language Transaction Code Generation"
+  venue: ACL
+  year: 2026
+  track: main
+  category: smart-contract
+  tags: [LLM]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.18653/v1/2026.acl-long.1642"
+  code: "https://github.com/OpenEdgeHQ/EVM-quest-bench"
+  dataset: true
+- title: "Towards Trustworthy Smart Contract Synthesis: A Multi-Agent Framework with Lean-Based Verification"
+  venue: ACL
+  year: 2026
+  track: main
+  category: smart-contract
+  tags: [LLM, Agent, Formal-Verification]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.18653/v1/2026.acl-long.1836"
+- title: "EVMbench: Evaluating AI Agents on Smart Contract Security"
+  venue: ICML
+  year: 2026
+  track: main
+  category: smart-contract
+  tags: [LLM, Agent]
+  assets: [Ethereum]
+  paper: "https://openreview.net/forum?id=K5S8N5NgD8"
+  code: "https://github.com/paradigmxyz/evmbench"
+  arxiv: '2603.04915'
+  dataset: true
+- title: Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis
+  venue: NeurIPS
+  year: 2026
+  track: main
+  category: smart-contract
+  tags: [RL, Symbolic-Execution]
+  assets: [Ethereum]
+  paper: "https://openreview.net/forum?id=0NgpgjG8bV"
+- title: "CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection"
+  venue: AAAI
+  year: 2025
+  track: main
+  category: smart-contract
+  tags: [Contrastive]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1609/aaai.v39i1.31981"
+- title: "MTVHunter: Smart Contracts Vulnerability Detection Based on Multi-Teacher Knowledge Translation"
+  venue: AAAI
+  year: 2025
+  track: main
+  category: smart-contract
+  tags: [Knowledge-Distillation]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1609/aaai.v39i14.33664"
+  code: "https://github.com/KD-SCVD/MTVHunter"
+- title: "SCALM: Detecting Bad Practices in Smart Contracts Through LLMs"
+  venue: AAAI
+  year: 2025
+  track: main
+  category: smart-contract
+  tags: [LLM]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1609/aaai.v39i1.32026"
+- title: "SolEval: Benchmarking Large Language Models for Repository-level Solidity Smart Contract Generation"
+  venue: EMNLP
+  year: 2025
+  track: main
+  category: smart-contract
+  tags: [LLM]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.18653/v1/2025.emnlp-main.218"
+  code: "https://github.com/pzy2000/SolEval"
+  dataset: true
+- title: Guiding LLM-based Smart Contract Generation with Finite State Machine
+  venue: IJCAI
+  year: 2025
+  track: main
+  category: smart-contract
+  tags: [LLM]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.24963/ijcai.2025/653"
+- title: Quantitative Runtime Monitoring of Ethereum Transaction Attacks
+  venue: WWW
+  year: 2025
+  track: main
+  category: smart-contract
+  tags: [Runtime-Verification]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3696410.3714682"
+- title: "SigScope: Detecting and Understanding Off-Chain Message Signing-related Vulnerabilities in Decentralized Applications"
+  venue: WWW
+  year: 2025
+  track: main
+  category: smart-contract
+  tags: [Program-Analysis]
+  assets: [DApp]
+  paper: "https://doi.org/10.1145/3696410.3714686"
+- title: "SuiGPT MAD: Move AI Decompiler to Improve Transparency and Auditability on Non-Open-Source Blockchain Smart Contract"
+  venue: WWW
+  year: 2025
+  track: main
+  category: smart-contract
+  tags: [LLM]
+  assets: [Sui]
+  paper: "https://doi.org/10.1145/3696410.3714790"
+  arxiv: '2410.15275'
+- title: "MuFuzz: Sequence-Aware Mutation and Seed Mask Guidance for Blockchain Smart Contract Fuzzing"
+  venue: ICDE
+  year: 2024
+  track: main
+  category: smart-contract
+  tags: [Fuzzing]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1109/icde60146.2024.00158"
+  code: "https://github.com/OMH4ck/mufuzz"
+  arxiv: '2312.04512'
+- title: "EFEVD: Enhanced Feature Extraction for Smart Contract Vulnerability Detection"
+  venue: IJCAI
+  year: 2024
+  track: main
+  category: smart-contract
+  tags: [Deep-Learning, Vulnerability-Detection]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.24963/ijcai.2024/469"
+- title: Detecting Bugs with Substantial Monetary Consequences by LLM and Rule-based Reasoning
+  venue: NeurIPS
+  year: 2024
+  track: main
+  category: smart-contract
+  tags: [LLM, Program-Analysis]
+  assets: [Ethereum]
+  paper: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/f1d8400fec75f683c4d823f5836a81bb-Abstract-Conference.html"
+- title: Characterizing Ethereum Upgradable Smart Contracts and Their Security Implications
+  venue: WWW
+  year: 2024
+  track: main
+  category: smart-contract
+  tags: [Measurement]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3589334.3645640"
+  arxiv: '2403.01290'
+- title: "DeFiTail: DeFi Protocol Inspection through Cross-Contract Execution Analysis"
+  venue: WWW
+  year: 2024
+  track: companion
+  category: smart-contract
+  tags: [Program-Analysis]
+  assets: [DeFi]
+  paper: "https://doi.org/10.1145/3589335.3651488"
+  arxiv: '2405.11035'
+- title: "StateGuard: Detecting State Derailment Defects in Decentralized Exchange Smart Contract"
+  venue: WWW
+  year: 2024
+  track: companion
+  category: smart-contract
+  tags: [Program-Analysis]
+  assets: [DEX]
+  paper: "https://doi.org/10.1145/3589335.3651562"
+  arxiv: '2405.09181'
+- title: "Banknote-Chain: Achieving User-Incentivized Parallelism in Blockchain via a Banknote-Inspired Transaction Model"
+  venue: ICDE
+  year: 2026
+  track: main
+  category: systems
+  tags: [Systems]
+  paper: "https://doi.org/10.1109/icde65706.2026.00055"
+  code: "https://github.com/zhiyongm/Banknote-Chain"
+- title: "Chubby: Robust Smart Contract Execution Against Dependency Over-Declaration"
+  venue: ICDE
+  year: 2026
+  track: main
+  category: systems
+  tags: [Concurrency]
+  paper: "https://doi.org/10.1109/icde65706.2026.00119"
+- title: "Cole⁺: Towards Practical Column-Based Learned Storage for Blockchain Systems"
+  venue: ICDE
+  year: 2026
+  track: main
+  category: systems
+  tags: [Learned-Index, Storage]
+  paper: "https://doi.org/10.1109/icde65706.2026.00132"
+  arxiv: '2603.00509'
+- title: "GECO: A Confidentiality-Preserving and High-Performance Permissioned Blockchain Framework for General Smart Contracts"
+  venue: ICDE
+  year: 2026
+  track: main
+  category: systems
+  tags: [Systems]
+  assets: [Permissioned]
+  paper: "https://doi.org/10.1109/icde65706.2026.00155"
+- title: Rethinking BFT Consensus via Transaction-Level Protocol Construction for Optimal Performance
+  venue: ICDE
+  year: 2026
+  track: main
+  category: systems
+  tags: [Consensus]
+  paper: "https://doi.org/10.1109/icde65706.2026.00361"
+- title: "RoarChain: A Robust Sharding Blockchain System for Enterprise Consortium"
+  venue: ICDE
+  year: 2026
+  track: main
+  category: systems
+  tags: [Sharding]
+  assets: [Permissioned]
+  paper: "https://doi.org/10.1109/icde65706.2026.00014"
+- title: "SpendableStore: A UTXO-Based Decentralized Data Store"
+  venue: ICDE
+  year: 2026
+  track: main
+  category: systems
+  tags: [Storage]
+  assets: [UTXO]
+  paper: "https://doi.org/10.1109/icde65706.2026.00153"
+  arxiv: '2607.02677'
+- title: "A Taxonomy-Driven Cryptographic Dependency Inventory for Post-Quantum Migration in Decentralized Systems: Triage Rules and a Worked Example"
+  venue: WWW
+  year: 2026
+  track: companion
+  category: systems
+  tags: [Post-Quantum]
+  paper: "https://doi.org/10.1145/3774905.3794696"
+- title: "Alzo: Auto-Tuning with Reinforcement Learning for DAG-based Blockchains"
+  venue: WWW
+  year: 2026
+  track: main
+  category: systems
+  tags: [RL]
+  assets: [DAG]
+  paper: "https://doi.org/10.1145/3774904.3792448"
+- title: "BIND: Enabling Continuous Transaction Processing During Account Migration in Sharded Blockchains"
+  venue: WWW
+  year: 2026
+  track: main
+  category: systems
+  tags: [Sharding]
+  paper: "https://doi.org/10.1145/3774904.3792530"
+- title: "Concordia: Enabling Low-Conflict Distributed Transaction Scheduling in Sharding Blockchain via Cooperative Perception"
+  venue: WWW
+  year: 2026
+  track: main
+  category: systems
+  tags: [Sharding]
+  paper: "https://doi.org/10.1145/3774904.3792469"
+- title: Eclipse Attacks on Ethereum's Peer-to-Peer Network
+  venue: WWW
+  year: 2026
+  track: main
+  category: systems
+  tags: [P2P-Security]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3774904.3792231"
+  arxiv: '2601.16560'
+- title: "Greedy Attack: Breaking Finality against VeChain Proof-of-Authority Consensus Protocol"
+  venue: WWW
+  year: 2026
+  track: main
+  category: systems
+  tags: [Consensus-Security]
+  assets: [VeChain]
+  paper: "https://doi.org/10.1145/3774904.3792513"
+- title: On the Effectiveness of Mempool-based Transaction Auditing
+  venue: WWW
+  year: 2026
+  track: main
+  category: systems
+  tags: [Measurement]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3774904.3792404"
+  arxiv: '2601.14996'
+- title: Risk-free Selfish Mining in Hybrid Predictability Model. A Case Study on Polkadot's NPoS
+  venue: WWW
+  year: 2026
+  track: main
+  category: systems
+  tags: [Game-Theory]
+  assets: [Polkadot]
+  paper: "https://doi.org/10.1145/3774904.3792560"
+- title: "E³FS: Efficient, Secure, and Verifiable Fuzzy Search with Data Updates in Hybrid-Storage Blockchains"
+  venue: ICDE
+  year: 2025
+  track: main
+  category: systems
+  tags: [Query-Processing]
+  paper: "https://doi.org/10.1109/icde65448.2025.00290"
+- title: "Loom: A Deterministic Execution Framework Towards Nested Contract Transactions"
+  venue: ICDE
+  year: 2025
+  track: main
+  category: systems
+  tags: [Concurrency]
+  assets: [Permissioned]
+  paper: "https://doi.org/10.1109/icde65448.2025.00182"
+- title: "MEST: An Efficient Authenticated Secondary Index in Blockchain Systems"
+  venue: ICDE
+  year: 2025
+  track: main
+  category: systems
+  tags: [Indexing]
+  paper: "https://doi.org/10.1109/icde65448.2025.00126"
+- title: "Towards Dynamic Boolean Range Query Over Hybrid-Storage Blockchains: A Secure and Reliably Verifiable Framework"
+  venue: ICDE
+  year: 2025
+  track: main
+  category: systems
+  tags: [Query-Processing]
+  paper: "https://doi.org/10.1109/icde65448.2025.00128"
+- title: "VGQ: Enabling Verifiable Graph Queries on Blockchain Systems"
+  venue: ICDE
+  year: 2025
+  track: main
+  category: systems
+  tags: [Query-Processing]
+  paper: "https://doi.org/10.1109/icde65448.2025.00269"
+- title: "AERO: Enhancing Sharding Blockchain via Deep Reinforcement Learning for Account Migration"
+  venue: WWW
+  year: 2025
+  track: main
+  category: systems
+  tags: [RL, Sharding]
+  paper: "https://doi.org/10.1145/3696410.3714926"
+- title: "MAP the Blockchain World: A Trustless and Scalable Blockchain Interoperability Protocol for Cross-chain Applications"
+  venue: WWW
+  year: 2025
+  track: main
+  category: systems
+  tags: [Interoperability]
+  assets: [Multi-chain]
+  paper: "https://doi.org/10.1145/3696410.3714867"
+  arxiv: '2411.00422'
+- title: "Approval-Based Committee Voting in Practice: A Case Study of (over-)Representation in the Polkadot Blockchain"
+  venue: AAAI
+  year: 2024
+  track: main
+  category: systems
+  tags: [Social-Choice]
+  assets: [Polkadot]
+  paper: "https://doi.org/10.1609/aaai.v38i9.28807"
+- title: "HTFabric: A Fast Re-ordering and Parallel Re-execution Method for a High-Throughput Blockchain"
+  venue: CIKM
+  year: 2024
+  track: main
+  category: systems
+  tags: [Systems]
+  assets: [Permissioned]
+  paper: "https://doi.org/10.1145/3627673.3679606"
+  code: "https://github.com/jaeyubsong/HTFabric"
+- title: Authenticated Keyword Search on Large-Scale Graphs in Hybrid-Storage Blockchains
+  venue: ICDE
+  year: 2024
+  track: main
+  category: systems
+  tags: [Query-Processing]
+  paper: "https://doi.org/10.1109/icde60146.2024.00155"
+- title: Authenticated Subgraph Matching in Hybrid-Storage Blockchains
+  venue: ICDE
+  year: 2024
+  track: main
+  category: systems
+  tags: [Query-Processing]
+  paper: "https://doi.org/10.1109/icde60146.2024.00159"
+- title: Efficient Partial Order Based Transaction Processing for Permissioned Blockchains
+  venue: ICDE
+  year: 2024
+  track: main
+  category: systems
+  tags: [Systems]
+  assets: [Permissioned]
+  paper: "https://doi.org/10.1109/icde60146.2024.00152"
+- title: Enabling Efficient, Verifiable, and Secure Conjunctive Keyword Search in Hybrid-Storage Blockchains
+  venue: ICDE
+  year: 2024
+  track: main
+  category: systems
+  tags: [Query-Processing]
+  paper: "https://doi.org/10.1109/icde60146.2024.00481"
+- title: "Porygon: Scaling Blockchain via 3D Parallelism"
+  venue: ICDE
+  year: 2024
+  track: main
+  category: systems
+  tags: [Systems]
+  paper: "https://doi.org/10.1109/icde60146.2024.00153"
+- title: "SharDAG: Scaling DAG-Based Blockchains Via Adaptive Sharding"
+  venue: ICDE
+  year: 2024
+  track: main
+  category: systems
+  tags: [Sharding]
+  paper: "https://doi.org/10.1109/icde60146.2024.00165"
+- title: "SpotLess: Concurrent Rotational Consensus Made Practical Through Rapid View Synchronization"
+  venue: ICDE
+  year: 2024
+  track: main
+  category: systems
+  tags: [Consensus]
+  paper: "https://doi.org/10.1109/icde60146.2024.00157"
+  arxiv: '2302.02118'
+- title: "TELL: Efficient Transaction Execution Protocol Towards Leaderless Consensus"
+  venue: ICDE
+  year: 2024
+  track: main
+  category: systems
+  tags: [Consensus]
+  assets: [Permissioned]
+  paper: "https://doi.org/10.1109/icde60146.2024.00154"
+- title: "V2FS : A Verifiable Virtual Filesystem for Multi-Chain Query Authentication"
+  venue: ICDE
+  year: 2024
+  track: main
+  category: systems
+  tags: [Query-Processing]
+  assets: [Multi-chain]
+  paper: "https://doi.org/10.1109/icde60146.2024.00160"
+- title: "Advancing Web 3.0: Making Smart Contracts Smarter on Blockchain"
+  venue: WWW
+  year: 2024
+  track: main
+  category: systems
+  tags: [AI-Inference, Systems]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3589334.3645319"
+- title: Blockchain Censorship
+  venue: WWW
+  year: 2024
+  track: main
+  category: systems
+  tags: [Measurement]
+  assets: [Ethereum]
+  paper: "https://doi.org/10.1145/3589334.3645431"
+  arxiv: '2305.18545'
+- title: Distributed Transparent Data Layer for Next Generation Blockchains
+  venue: WWW
+  year: 2024
+  track: companion
+  category: systems
+  tags: [Systems]
+  paper: "https://doi.org/10.1145/3589335.3651255"
+- title: "Seamlessly Transferring Assets through Layer-0 Bridges: An Empirical Analysis of Stargate Bridge's Architecture and Dynamics"
+  venue: WWW
+  year: 2024
+  track: companion
+  category: systems
+  tags: [Measurement]
+  assets: [Cross-chain]
+  paper: "https://doi.org/10.1145/3589335.3651964"
+- title: "SPRING: Improving the Throughput of Sharding Blockchain via Deep Reinforcement Learning Based State Placement"
+  venue: WWW
+  year: 2024
+  track: main
+  category: systems
+  tags: [RL, Sharding]
+  paper: "https://doi.org/10.1145/3589334.3645386"
+- title: Statistical Confidence in Mining Power Estimates for PoW Blockchains
+  venue: WWW
+  year: 2024
+  track: companion
+  category: systems
+  tags: [Statistics]
+  assets: [PoW]
+  paper: "https://doi.org/10.1145/3589335.3651960"
+  arxiv: '2403.13736'
+- title: "Large Language Models for Blockchain Security and Analytics: A Survey"
+  venue: IJCAI
+  year: 2026
+  track: main
+  category: survey
+  tags: [LLM, Survey]
+  paper: "https://doi.org/10.24963/ijcai.2026/885"
+- title: "Quantum-Safe, Efficient, and AI-Enhanced Blockchains for the Web: A Cooperative Tutorial on Quantum Computing, Blockchain Applications, and Data Standards"
+  venue: WWW
+  year: 2026
+  track: companion
+  category: survey
+  tags: [Tutorial]
+  paper: "https://doi.org/10.1145/3774905.3793916"
+- title: "ZABAPAD 2026: 1st Workshop on Zero-knowledge Proof and Blockchain for WEB 4.0: Advancing the Post-quantum and Decentralized Era"
+  venue: WWW
+  year: 2026
+  track: companion
+  category: survey
+  tags: [Workshop]
+  paper: "https://doi.org/10.1145/3774905.3794693"
+- title: "Survey on Strategic Mining in Blockchain: A Reinforcement Learning Approach"
+  venue: IJCAI
+  year: 2024
+  track: main
+  category: survey
+  tags: [RL, Survey]
+  paper: "https://doi.org/10.24963/ijcai.2024/1170"
+- title: The Fourth International Workshop on Smart Data for Blockchain and Distributed Ledger (SDBD'24)
+  venue: KDD
+  year: 2024
+  track: main
+  category: survey
+  tags: [Workshop]
+  paper: "https://doi.org/10.1145/3637528.3671475"
+- title: "CAAW'24: The 3rd International Cryptoasset Analytics Workshop"
+  venue: WWW
+  year: 2024
+  track: companion
+  category: survey
+  tags: [Workshop]
+  paper: "https://doi.org/10.1145/3589335.3641304"
+- title: "Incentives in the Ether: Practical Cryptocurrency Economics & Security"
+  venue: WWW
+  year: 2024
+  track: companion
+  category: survey
+  tags: [Tutorial]
+  paper: "https://doi.org/10.1145/3589335.3651268"
+- title: When Crypto Economics Meet Graph Analytics and Learning
+  venue: WWW
+  year: 2024
+  track: companion
+  category: survey
+  tags: [Tutorial]
+  paper: "https://doi.org/10.1145/3589335.3651257"
+  arxiv: '2403.06454'
