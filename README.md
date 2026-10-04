@@ -18,7 +18,7 @@ A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web
 - **Contributions welcome.** Missing a paper or a code link? [Open an issue](https://github.com/FanBroWell/Crypto-Top-Papers/issues/new?template=add-paper.md) or a pull request (see [How to Contribute](#how-to-contribute)).
 - **Easy to scan.** Each paper is listed once under its main task, with method tags such as `GNN`, `LLM` and `RL` and chain tags such as *Bitcoin* and *Ethereum*. ＊ marks a general financial method that uses crypto data as a main dataset.
 
-If this list helps your research, please give it a ⭐.
+Feel free to suggest decent papers via a PR. If you find this repository helpful, consider leaving a ⭐
 
 # Updates
 
