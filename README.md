@@ -63,10 +63,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 # Papers by Task
 
-[Back to top](#table-of-contents)
-
-Entry format: `(Venue Year Track) Title [Paper] [Code] method tags · chain`. Track labels are *Short*, *Companion*, *Workshop*, *D&B* (NeurIPS Datasets & Benchmarks) and *Findings*; no label means the main track.
-
 ## Price Forecasting & Market Analysis
 
 *Price, return and volatility forecasting, market simulation, and event or news analysis.*
