@@ -143,7 +143,7 @@ def render(papers, updated, updates, upcoming):
       "and `RL` and chain tags such as *Bitcoin* and *Ethereum*. ＊ marks a general financial method that uses "
       "crypto data as a main dataset.")
     w("")
-    w("If this list helps your research, please give it a ⭐.")
+    w("Feel free to suggest decent papers via a PR. If you find this repository helpful, consider leaving a ⭐")
     w("")
     w("# Updates")
     w("")
@@ -216,19 +216,50 @@ def render(papers, updated, updates, upcoming):
     w("")
     w("# How to Contribute")
     w("")
-    w("This list is kept up to date with the community's help, and contributions are welcome. "
-      "Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.")
+    w("This list is updated continuously, and everyone is welcome to add papers, including their own.")
     w("")
-    w("Quick version:")
+    w("## Requirements")
     w("")
-    w("- **What fits**: a peer-reviewed paper at one of the conferences above whose subject is cryptocurrency, "
-      "blockchain or Web3 (or a general financial method that uses crypto data as a main dataset, marked ＊).")
-    w("- **Proof of acceptance**: include the official link (DOI, OpenReview, ACL Anthology, PMLR) or the "
-      "authors' acceptance note.")
-    w(f"- **Easiest way**: [open an issue]({ISSUE_URL}) with the title, venue and links, and we will add it.")
-    w("- **Pull request**: add one entry to [`papers.yaml`](papers.yaml) and run "
-      "`python scripts/build_readme.py`. One paper per PR; do not edit `README.md` by hand.")
-    w("- **Your own paper** is welcome: please say so in the issue or PR.")
+    w(f"1. **Accepted at a covered conference.** The paper is accepted at one of the {len(VENUES)} conferences "
+      "listed at the top. Main track, short, companion, workshop, D&B and Findings papers all count. "
+      "Preprints that are not accepted yet do not.")
+    w("2. **About crypto.** The paper is about cryptocurrency, blockchain or Web3. A general financial method "
+      "also counts if crypto data is one of its main datasets (it will be marked ＊).")
+    w("3. **Proof of acceptance.** You give a link that shows the paper was accepted: DOI, OpenReview, "
+      "ACL Anthology, PMLR, or the authors' acceptance note.")
+    w("")
+    w("## Submit a pull request")
+    w("")
+    w("1. **Fork** this repository (the **Fork** button at the top right of this page).")
+    w("2. **Clone** your fork and create a branch.")
+    w("3. **Add one entry** for the paper to [`papers.yaml`](papers.yaml). The easiest way is to copy an "
+      "existing entry and edit it.")
+    w("4. **Regenerate the README** with the script. Do not edit `README.md` by hand.")
+    w("5. **Commit and push** to your fork.")
+    w("6. **Open a pull request** to the `main` branch of this repository and fill in the template: "
+      "the paper, the proof of acceptance, and whether you are an author.")
+    w("7. A maintainer checks the link and merges the pull request.")
+    w("")
+    w("```bash")
+    w("git clone https://github.com/<your-username>/Crypto-Top-Papers.git")
+    w("cd Crypto-Top-Papers")
+    w("git checkout -b add-paper")
+    w("# edit papers.yaml, then:")
+    w("pip install pyyaml")
+    w("python scripts/build_readme.py")
+    w("git add papers.yaml README.md")
+    w('git commit -m "Add <paper title> (<venue> <year>)"')
+    w("git push origin add-paper")
+    w("```")
+    w("")
+    w("Please keep it to **one paper per pull request** (or a small batch from the same conference). "
+      "If you cannot run the script, say so in the pull request and we will regenerate the README for you.")
+    w("")
+    w("## No time for a pull request?")
+    w("")
+    w(f"[Open an issue]({ISSUE_URL}) with the title, venue and links, and we will add the paper for you.")
+    w("")
+    w("The entry format, categories and tags are described in [CONTRIBUTING.md](CONTRIBUTING.md).")
     w("")
     w("# License")
     w("")

@@ -35,13 +35,32 @@ There are two ways. Pick whichever is easier for you.
 
 **Option 1: open an issue (no setup needed).** Use the [Add a paper](https://github.com/FanBroWell/Crypto-Top-Papers/issues/new?template=add-paper.md) template and fill in the title, venue, year and links. A maintainer will add the entry.
 
-**Option 2: open a pull request.**
+**Option 2: fork and open a pull request.**
 
-1. **One paper per PR**, or a small batch of closely related papers (for example, several papers from the same conference).
-2. **Add one entry to [`papers.yaml`](papers.yaml)**, following the format below. Do not edit `README.md` by hand: it is generated.
-3. **Regenerate the README**: `pip install pyyaml && python scripts/build_readme.py`.
-4. **Use an existing category and existing tags** where possible. Do not create new categories without discussion.
-5. **Describe the PR briefly**: the paper, the link that proves acceptance, and whether you are an author.
+1. **Fork** this repository (the **Fork** button at the top right of the GitHub page).
+2. **Clone** your fork and create a branch.
+3. **Add one entry to [`papers.yaml`](papers.yaml)**, following the format below. The easiest way is to copy an existing entry and edit it.
+4. **Regenerate the README** with the script. Do not edit `README.md` by hand: it is generated.
+5. **Commit and push** to your fork.
+6. **Open a pull request** to the `main` branch of this repository and fill in the template: the paper, the link that proves acceptance, and whether you are an author.
+
+```bash
+git clone https://github.com/<your-username>/Crypto-Top-Papers.git
+cd Crypto-Top-Papers
+git checkout -b add-paper
+# edit papers.yaml, then:
+pip install pyyaml
+python scripts/build_readme.py
+git add papers.yaml README.md
+git commit -m "Add <paper title> (<venue> <year>)"
+git push origin add-paper
+```
+
+A few rules keep reviews fast:
+
+- **One paper per pull request**, or a small batch of closely related papers (for example, several papers from the same conference).
+- **Use an existing category and existing tags** where possible. Do not create new categories without discussion.
+- If you cannot run the script, say so in the pull request and a maintainer will regenerate the README.
 
 ## Entry format
 
