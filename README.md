@@ -19,14 +19,9 @@ A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web
 
 Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-contribute)). If you find this repository helpful, consider leaving a ⭐
 
-# Updates
-
-- **2026-10-04**: First release with 160 papers from 14 conferences (2024–2026).
-
 # Table of Contents
 
 - [About](#about)
-- [Updates](#updates)
 - [Venue Statistics](#venue-statistics)
 - [Papers by Task](#papers-by-task)
   - [Price Forecasting & Market Analysis](#price-forecasting--market-analysis) (11)
