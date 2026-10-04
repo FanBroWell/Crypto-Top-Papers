@@ -15,15 +15,14 @@ NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE �
 A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web3 from 14 CS top conferences (2024–2026), with links to each paper and its code.
 
 - **Continuously updated.** New papers are added as each conference publishes its proceedings (see [Updates](#updates)).
-- **Contributions welcome.** Missing a paper or a code link? [Open an issue](https://github.com/FanBroWell/Crypto-Top-Papers/issues/new?template=add-paper.md) or a pull request (see [How to Contribute](#how-to-contribute)).
 - **Easy to scan.** Each paper is listed once under its main task, with method tags such as `GNN`, `LLM` and `RL` and chain tags such as *Bitcoin* and *Ethereum*. ＊ marks a general financial method that uses crypto data as a main dataset.
 
-Feel free to suggest decent papers via a PR. If you find this repository helpful, consider leaving a ⭐
+Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-contribute)). If you find this repository helpful, consider leaving a ⭐
 
 # Updates
 
 - **2026-10-04**: First release with 160 papers from 14 conferences (2024–2026).
-- **Coming next**: CIKM 2026, ICDM 2026 and EMNLP 2026, once their proceedings are published.
+
 
 # Table of Contents
 
