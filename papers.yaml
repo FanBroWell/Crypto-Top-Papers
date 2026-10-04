@@ -7,7 +7,7 @@ updates:
 - date: '2026-10-04'
   text: "First release with 160 papers from 14 conferences (2024–2026)."
 # Shown as "Coming next" in the README; set to null to hide.
-upcoming: "CIKM 2026, ICDM 2026 and EMNLP 2026, once their proceedings are published."
+upcoming: null
 papers:
 - title: "Market-Aware Event Timeline Summarization: Integrating Price Signals to Improve Financial News Understanding"
   venue: AAAI

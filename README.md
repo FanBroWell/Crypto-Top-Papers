@@ -23,7 +23,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 - **2026-10-04**: First release with 160 papers from 14 conferences (2024–2026).
 
-
 # Table of Contents
 
 - [About](#about)
@@ -471,43 +470,17 @@ Papers that release a dataset or benchmark (also listed under their task above).
 
 # How to Contribute
 
-This list is updated continuously, and everyone is welcome to add papers, including their own.
+This list is updated continuously, and contributions are welcome.
 
-## Requirements
+**Requirement**: the paper is accepted at one of the conferences listed at the top.
 
-1. **Accepted at a covered conference.** The paper is accepted at one of the 14 conferences listed at the top. Main track, short, companion, workshop, D&B and Findings papers all count. Preprints that are not accepted yet do not.
-2. **About crypto.** The paper is about cryptocurrency, blockchain or Web3. A general financial method also counts if crypto data is one of its main datasets (it will be marked ＊).
-3. **Proof of acceptance.** You give a link that shows the paper was accepted: DOI, OpenReview, ACL Anthology, PMLR, or the authors' acceptance note.
+**Steps**:
 
-## Submit a pull request
+1. Fork this repository and clone your fork.
+2. Add the paper to [`papers.yaml`](papers.yaml) (copy an existing entry and edit it).
+3. Push to your fork and open a pull request.
 
-1. **Fork** this repository (the **Fork** button at the top right of this page).
-2. **Clone** your fork and create a branch.
-3. **Add one entry** for the paper to [`papers.yaml`](papers.yaml). The easiest way is to copy an existing entry and edit it.
-4. **Regenerate the README** with the script. Do not edit `README.md` by hand.
-5. **Commit and push** to your fork.
-6. **Open a pull request** to the `main` branch of this repository and fill in the template: the paper, the proof of acceptance, and whether you are an author.
-7. A maintainer checks the link and merges the pull request.
-
-```bash
-git clone https://github.com/<your-username>/Crypto-Top-Papers.git
-cd Crypto-Top-Papers
-git checkout -b add-paper
-# edit papers.yaml, then:
-pip install pyyaml
-python scripts/build_readme.py
-git add papers.yaml README.md
-git commit -m "Add <paper title> (<venue> <year>)"
-git push origin add-paper
-```
-
-Please keep it to **one paper per pull request** (or a small batch from the same conference). If you cannot run the script, say so in the pull request and we will regenerate the README for you.
-
-## No time for a pull request?
-
-[Open an issue](https://github.com/FanBroWell/Crypto-Top-Papers/issues/new?template=add-paper.md) with the title, venue and links, and we will add the paper for you.
-
-The entry format, categories and tags are described in [CONTRIBUTING.md](CONTRIBUTING.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the entry format.
 
 # License
 
