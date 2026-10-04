@@ -6,7 +6,7 @@
 
 NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE · SIGIR · WSDM · ACL · EMNLP
 
-![Papers](https://img.shields.io/badge/papers-160-blue) ![With Code](https://img.shields.io/badge/with%20code-30-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--04-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+![Papers](https://img.shields.io/badge/papers-160-blue) ![With Code](https://img.shields.io/badge/with%20code-30-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--04-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
 
 </div>
 
@@ -14,7 +14,7 @@ NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE �
 
 A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web3 from 14 CS top conferences (2024–2026), with links to each paper and its code.
 
-- **Continuously updated.** New papers are added as each conference publishes its proceedings (see [Updates](#updates)).
+- **Continuously updated.** New papers are added as each conference publishes its proceedings.
 - **Easy to scan.** Each paper is listed once under its main task, with method tags such as `GNN`, `LLM` and `RL` and chain tags such as *Bitcoin* and *Ethereum*. ＊ marks a general financial method that uses crypto data as a main dataset.
 
 Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-contribute)). If you find this repository helpful, consider leaving a ⭐
@@ -468,9 +468,8 @@ This list is updated continuously, and contributions are welcome.
 **Steps**:
 
 1. Fork this repository and clone your fork.
-2. Push to your fork and open a pull request.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the entry format.
+2. Add the paper to `README.md`, following the format of the existing entries.
+3. Push to your fork and open a pull request.
 
 # License
 
