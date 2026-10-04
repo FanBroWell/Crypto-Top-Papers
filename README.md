@@ -2,29 +2,33 @@
 
 # Crypto Top Papers
 
-**Cryptocurrency Work Summary in CS Top Conferences (NeurIPS, ICML, ICLR, KDD, WWW, AAAI, IJCAI, CIKM, ICDM, ICDE, SIGIR, WSDM, ACL, EMNLP)**
+**Cryptocurrency, blockchain and Web3 papers at CS top conferences**
 
-![Papers](https://img.shields.io/badge/papers-160-blue) ![Venues](https://img.shields.io/badge/venues-14-orange) ![Updated](https://img.shields.io/badge/updated-2026--10--04-green) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE · SIGIR · WSDM · ACL · EMNLP
+
+![Papers](https://img.shields.io/badge/papers-160-blue) ![With Code](https://img.shields.io/badge/with%20code-30-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--04-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 </div>
 
 # About
 
-A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web3 published at CS top conferences from 2024 to 2026. Every entry has been checked against the official proceedings, the conference website, or an explicit acceptance note from the authors.
+A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web3 from 14 CS top conferences (2024–2026), with links to each paper and its code.
 
-- **One entry, one task.** Each paper is listed once under its main research task. Methods and chains are shown as tags, so you can search the page for `GNN`, `LLM`, `RL`, *Ethereum* and so on.
-- **＊** marks a general financial ML method that uses cryptocurrency data as one of its main experimental datasets.
-- Track labels: *Short*, *Companion*, *Workshop*, *D&B* (NeurIPS Datasets & Benchmarks), *Findings*. No label means the main track.
-- 30 of 160 papers currently link to code. Missing papers or code links? See [Contributing](#contributing). If this list helps your research, consider leaving a ⭐.
+- **Continuously updated.** New papers are added as each conference publishes its proceedings (see [Updates](#updates)).
+- **Contributions welcome.** Missing a paper or a code link? [Open an issue](https://github.com/FanBroWell/Crypto-Top-Papers/issues/new?template=add-paper.md) or a pull request (see [How to Contribute](#how-to-contribute)).
+- **Easy to scan.** Each paper is listed once under its main task, with method tags such as `GNN`, `LLM` and `RL` and chain tags such as *Bitcoin* and *Ethereum*. ＊ marks a general financial method that uses crypto data as a main dataset.
 
-# News
+If this list helps your research, please give it a ⭐.
 
-- **2026-10-04**: First release with 160 papers from 14 venues (2024–2026).
+# Updates
+
+- **2026-10-04**: First release with 160 papers from 14 conferences (2024–2026).
+- **Coming next**: CIKM 2026, ICDM 2026 and EMNLP 2026, once their proceedings are published.
 
 # Table of Contents
 
 - [About](#about)
-- [News](#news)
+- [Updates](#updates)
 - [Venue Statistics](#venue-statistics)
 - [Papers by Task](#papers-by-task)
   - [Price Forecasting & Market Analysis](#price-forecasting--market-analysis) (11)
@@ -41,8 +45,8 @@ A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web
   - [2025](#2025)
   - [2024](#2024)
 - [Datasets & Benchmarks](#datasets--benchmarks) (11)
-- [Related Repositories](#related-repositories)
-- [Contributing](#contributing)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
 
 # Venue Statistics
 
@@ -67,6 +71,8 @@ A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web
 # Papers by Task
 
 [Back to top](#table-of-contents)
+
+Entry format: `(Venue Year Track) Title [Paper] [Code] method tags · chain`. Track labels are *Short*, *Companion*, *Workshop*, *D&B* (NeurIPS Datasets & Benchmarks) and *Findings*; no label means the main track.
 
 ## Price Forecasting & Market Analysis
 
@@ -464,14 +470,24 @@ Papers that release a dataset or benchmark (also listed under their task above).
 - (NeurIPS 2024 D&B) **Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html)] [[Code](https://github.com/Xtra-Computing/Cryptocurrency-Graphs-of-graphs)] `GNN` · *Multi-chain*
 - (ICLR 2024) **EX-Graph: A Pioneering Dataset Bridging Ethereum and X** [[Paper](https://openreview.net/forum?id=juE0rWGCJW)] `GNN` · *Ethereum*
 
-# Related Repositories
+# How to Contribute
 
-- [stock-top-papers](https://github.com/marcuswang6/stock-top-papers): Top-venue papers on stock prediction and quantitative trading.
-- [Time-Series-Works-Conferences](https://github.com/lixus7/Time-Series-Works-Conferences): Time-series papers in CS top conferences.
-- [awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance): LLMs, deep learning strategies and tools for financial markets.
-- [Awesome_AI4Finance](https://github.com/AI4Finance-Foundation/Awesome_AI4Finance): AI4Finance tools, frameworks and papers.
-- [awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai): AI and machine learning resources for quantitative investment.
+This list is kept up to date with the community's help, and contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
-# Contributing
+Quick version:
 
-All entries live in [`papers.yaml`](papers.yaml); this README is generated by [`scripts/build_readme.py`](scripts/build_readme.py). To add a paper, append one entry to `papers.yaml`, run `python scripts/build_readme.py`, and open a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the inclusion criteria and entry format.
+- **What fits**: a peer-reviewed paper at one of the conferences above whose subject is cryptocurrency, blockchain or Web3 (or a general financial method that uses crypto data as a main dataset, marked ＊).
+- **Proof of acceptance**: include the official link (DOI, OpenReview, ACL Anthology, PMLR) or the authors' acceptance note.
+- **Easiest way**: [open an issue](https://github.com/FanBroWell/Crypto-Top-Papers/issues/new?template=add-paper.md) with the title, venue and links, and we will add it.
+- **Pull request**: add one entry to [`papers.yaml`](papers.yaml) and run `python scripts/build_readme.py`. One paper per PR; do not edit `README.md` by hand.
+- **Your own paper** is welcome: please say so in the issue or PR.
+
+# License
+
+Released under the [Apache License 2.0](LICENSE).
+
+<div align="center">
+
+If you find this list useful, please consider giving it a star. It helps others discover these papers.
+
+</div>

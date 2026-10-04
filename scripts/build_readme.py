@@ -17,6 +17,8 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "papers.yaml"
 README = ROOT / "README.md"
+REPO = "https://github.com/FanBroWell/Crypto-Top-Papers"
+ISSUE_URL = f"{REPO}/issues/new?template=add-paper.md"
 
 VENUES = ["NeurIPS", "ICML", "ICLR", "KDD", "WWW", "AAAI", "IJCAI", "CIKM",
           "ICDM", "ICDE", "SIGIR", "WSDM", "ACL", "EMNLP"]
@@ -47,20 +49,6 @@ TRACK_LABEL = {
     "main": "", "short": "Short", "companion": "Companion", "workshop": "Workshop",
     "D&B": "D&B", "findings": "Findings", "industry": "Industry", "demo": "Demo", "blog": "Blog",
 }
-
-RELATED = [
-    ("stock-top-papers", "https://github.com/marcuswang6/stock-top-papers",
-     "Top-venue papers on stock prediction and quantitative trading."),
-    ("Time-Series-Works-Conferences", "https://github.com/lixus7/Time-Series-Works-Conferences",
-     "Time-series papers in CS top conferences."),
-    ("awesome-ai-in-finance", "https://github.com/georgezouq/awesome-ai-in-finance",
-     "LLMs, deep learning strategies and tools for financial markets."),
-    ("Awesome_AI4Finance", "https://github.com/AI4Finance-Foundation/Awesome_AI4Finance",
-     "AI4Finance tools, frameworks and papers."),
-    ("awesome-quant-ai", "https://github.com/leoncuhk/awesome-quant-ai",
-     "AI and machine learning resources for quantitative investment."),
-]
-
 
 def anchor(text):
     """GitHub-style heading anchor."""
@@ -114,7 +102,7 @@ def validate(papers):
     return errors
 
 
-def render(papers, updated):
+def render(papers, updated, updates, upcoming):
     papers = sorted(papers, key=sort_key)
     n = len(papers)
     years = sorted({p["year"] for p in papers}, reverse=True)
@@ -130,38 +118,44 @@ def render(papers, updated):
     w("")
     w("# Crypto Top Papers")
     w("")
-    w("**Cryptocurrency Work Summary in CS Top Conferences "
-      "(NeurIPS, ICML, ICLR, KDD, WWW, AAAI, IJCAI, CIKM, ICDM, ICDE, SIGIR, WSDM, ACL, EMNLP)**")
+    w("**Cryptocurrency, blockchain and Web3 papers at CS top conferences**")
+    w("")
+    w(" · ".join(VENUES))
     w("")
     w(f"![Papers](https://img.shields.io/badge/papers-{n}-blue) "
-      f"![Venues](https://img.shields.io/badge/venues-{len(VENUES)}-orange) "
+      f"![With Code](https://img.shields.io/badge/with%20code-{with_code}-blueviolet) "
       f"![Updated](https://img.shields.io/badge/updated-{updated.replace('-', '--')}-green) "
+      "[![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) "
       "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)")
     w("")
     w("</div>")
     w("")
     w("# About")
     w("")
-    w("A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web3 published at CS top "
-      f"conferences from {min(years)} to {max(years)}. Every entry has been checked against the official "
-      "proceedings, the conference website, or an explicit acceptance note from the authors.")
+    w(f"A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web3 from "
+      f"{len(VENUES)} CS top conferences ({min(years)}–{max(years)}), with links to each paper and its code.")
     w("")
-    w("- **One entry, one task.** Each paper is listed once under its main research task. "
-      "Methods and chains are shown as tags, so you can search the page for `GNN`, `LLM`, `RL`, *Ethereum* and so on.")
-    w("- **＊** marks a general financial ML method that uses cryptocurrency data as one of its main experimental datasets.")
-    w("- Track labels: *Short*, *Companion*, *Workshop*, *D&B* (NeurIPS Datasets & Benchmarks), *Findings*. "
-      "No label means the main track.")
-    w(f"- {with_code} of {n} papers currently link to code. Missing papers or code links? "
-      "See [Contributing](#contributing). If this list helps your research, consider leaving a ⭐.")
+    w("- **Continuously updated.** New papers are added as each conference publishes its proceedings "
+      "(see [Updates](#updates)).")
+    w(f"- **Contributions welcome.** Missing a paper or a code link? [Open an issue]({ISSUE_URL}) or a pull "
+      "request (see [How to Contribute](#how-to-contribute)).")
+    w("- **Easy to scan.** Each paper is listed once under its main task, with method tags such as `GNN`, `LLM` "
+      "and `RL` and chain tags such as *Bitcoin* and *Ethereum*. ＊ marks a general financial method that uses "
+      "crypto data as a main dataset.")
     w("")
-    w("# News")
+    w("If this list helps your research, please give it a ⭐.")
     w("")
-    w(f"- **{updated}**: First release with {n} papers from {len(VENUES)} venues ({min(years)}–{max(years)}).")
+    w("# Updates")
+    w("")
+    for u in updates:
+        w(f"- **{u['date']}**: {u['text']}")
+    if upcoming:
+        w(f"- **Coming next**: {upcoming}")
     w("")
     w("# Table of Contents")
     w("")
     w("- [About](#about)")
-    w("- [News](#news)")
+    w("- [Updates](#updates)")
     w("- [Venue Statistics](#venue-statistics)")
     w("- [Papers by Task](#papers-by-task)")
     for k, t, _ in CATEGORIES:
@@ -170,8 +164,8 @@ def render(papers, updated):
     for y in years:
         w(f"  - [{y}](#{y})")
     w(f"- [Datasets & Benchmarks](#datasets--benchmarks) ({len(datasets)})")
-    w("- [Related Repositories](#related-repositories)")
-    w("- [Contributing](#contributing)")
+    w("- [How to Contribute](#how-to-contribute)")
+    w("- [License](#license)")
     w("")
     w("# Venue Statistics")
     w("")
@@ -187,6 +181,9 @@ def render(papers, updated):
     w("# Papers by Task")
     w("")
     w("[Back to top](#table-of-contents)")
+    w("")
+    w("Entry format: `(Venue Year Track) Title [Paper] [Code] method tags · chain`. Track labels are *Short*, "
+      "*Companion*, *Workshop*, *D&B* (NeurIPS Datasets & Benchmarks) and *Findings*; no label means the main track.")
     for k, t, desc in CATEGORIES:
         items = by_cat.get(k, [])
         w("")
@@ -217,17 +214,31 @@ def render(papers, updated):
     for p in datasets:
         w(entry(p))
     w("")
-    w("# Related Repositories")
+    w("# How to Contribute")
     w("")
-    for name, url, desc in RELATED:
-        w(f"- [{name}]({url}): {desc}")
+    w("This list is kept up to date with the community's help, and contributions are welcome. "
+      "Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.")
     w("")
-    w("# Contributing")
+    w("Quick version:")
     w("")
-    w("All entries live in [`papers.yaml`](papers.yaml); this README is generated by "
-      "[`scripts/build_readme.py`](scripts/build_readme.py). To add a paper, append one entry to "
-      "`papers.yaml`, run `python scripts/build_readme.py`, and open a pull request. "
-      "See [CONTRIBUTING.md](CONTRIBUTING.md) for the inclusion criteria and entry format.")
+    w("- **What fits**: a peer-reviewed paper at one of the conferences above whose subject is cryptocurrency, "
+      "blockchain or Web3 (or a general financial method that uses crypto data as a main dataset, marked ＊).")
+    w("- **Proof of acceptance**: include the official link (DOI, OpenReview, ACL Anthology, PMLR) or the "
+      "authors' acceptance note.")
+    w(f"- **Easiest way**: [open an issue]({ISSUE_URL}) with the title, venue and links, and we will add it.")
+    w("- **Pull request**: add one entry to [`papers.yaml`](papers.yaml) and run "
+      "`python scripts/build_readme.py`. One paper per PR; do not edit `README.md` by hand.")
+    w("- **Your own paper** is welcome: please say so in the issue or PR.")
+    w("")
+    w("# License")
+    w("")
+    w("Released under the [Apache License 2.0](LICENSE).")
+    w("")
+    w('<div align="center">')
+    w("")
+    w("If you find this list useful, please consider giving it a star. It helps others discover these papers.")
+    w("")
+    w("</div>")
     w("")
     return "\n".join(out)
 
@@ -243,7 +254,7 @@ def main():
         print("\n".join(errors))
         sys.exit(1)
     updated = str(doc.get("updated") or datetime.date.today())
-    text = render(papers, updated)
+    text = render(papers, updated, doc.get("updates") or [], doc.get("upcoming"))
     if args.check:
         current = README.read_text(encoding="utf-8") if README.exists() else ""
         if current != text:

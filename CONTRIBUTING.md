@@ -1,47 +1,67 @@
-# Contributing
+# Contributing to Crypto Top Papers
 
-Thanks for helping keep this list complete and accurate.
+Thanks for taking the time to suggest a paper. This list is **continuously updated**, and it stays complete only with help from the community: new conference proceedings come out all year, and code links appear after publication.
 
-## What fits this list
+The list is curated rather than exhaustive. The goal is to be a reliable reference for people doing research on cryptocurrency, blockchain and Web3, not a directory of every paper that mentions Bitcoin. A few minutes spent on the criteria below saves time for both of us.
 
-A paper is included when **all** of the following hold:
+## What we look for
 
-1. **Venue.** It is published at one of the covered conferences: NeurIPS, ICML, ICLR, KDD, WWW (The Web Conference), AAAI, IJCAI, CIKM, ICDM, ICDE, SIGIR, WSDM, ACL or EMNLP. Main-track papers are preferred; short papers, companion papers, workshop papers, NeurIPS Datasets & Benchmarks papers and ACL/EMNLP Findings are accepted with a track label.
-2. **Acceptance is verifiable.** Provide the official proceedings link (DOI, OpenReview, ACL Anthology, PMLR, NeurIPS proceedings) or an explicit acceptance note from the authors (for example an arXiv comment such as "Accepted at ...").
-3. **Topic.** Cryptocurrency, blockchain or Web3 is the subject of the paper, or (marked ＊) a general financial ML method uses cryptocurrency data as one of its **main** experimental datasets.
+A paper is included when **all three** of the following hold:
 
-Not included:
+- **Covered venue.** It is published at NeurIPS, ICML, ICLR, KDD, WWW (The Web Conference), AAAI, IJCAI, CIKM, ICDM, ICDE, SIGIR, WSDM, ACL or EMNLP. Main-track papers are preferred. Short papers, companion papers, workshop papers, NeurIPS Datasets & Benchmarks papers and ACL/EMNLP Findings are accepted with a track label.
+- **Verifiable acceptance.** There is an official link (DOI, OpenReview, ACL Anthology, PMLR, NeurIPS proceedings) or an explicit acceptance note from the authors, such as an arXiv comment saying "Accepted at ...".
+- **On topic.** Cryptocurrency, blockchain or Web3 is the subject of the paper. A general financial ML method also fits when cryptocurrency data is one of its **main** experimental datasets; such papers are marked ＊.
 
-- General graph or time-series papers that use Bitcoin-OTC, Elliptic or similar data only as one benchmark among many.
-- Papers that use a blockchain only as infrastructure for an unrelated application (federated learning, IoT storage, video provenance, and so on).
-- Preprints that have not been accepted at a covered venue.
+Other contributions are just as welcome:
 
-## How to add a paper
+- **Code links** for papers already in the list.
+- **Corrections** to a venue, track, link, category or tag.
 
-1. Append one entry to [`papers.yaml`](papers.yaml):
+## What usually doesn't fit
 
-   ```yaml
-   - title: "CryptoMixer: Fine-grained market information-aware MLP Networks for Individual Cryptocurrency Trading Prediction"
-     venue: KDD            # one of the covered venues
-     year: 2025
-     track: main           # main | short | companion | workshop | D&B | findings | industry | demo | blog
-     category: forecasting # see the category list below
-     tags: [MLP, Time-Series]
-     assets: [Crypto]
-     paper: https://doi.org/10.1145/...
-     code: https://github.com/...   # optional
-     dataset: false        # true if the paper releases a dataset or benchmark
-     general: false        # true for ＊ papers
-   ```
+- **Preprints** that have not been accepted at a covered venue. Please come back once the paper is accepted.
+- **Generic graph or time-series papers** that use Bitcoin-OTC, Elliptic or similar data only as one benchmark among many.
+- **Blockchain as infrastructure** for an unrelated application, such as federated learning, IoT storage or video provenance.
+- **Papers from other venues** (for example FC, IEEE ICBC, CCS, IEEE S&P, journals). The list is limited to the 14 conferences above; open an issue if you think a venue should be added.
+- **Duplicates.** Please search the README first.
 
-2. Regenerate the README: `pip install pyyaml && python scripts/build_readme.py`.
-3. Open a pull request with one paper (or one closely related batch) per PR, and fill in the template.
+## Submitting your own paper
 
-## Categories
+Authors are welcome to submit their own work. Please **say so in the issue or pull request**. The same criteria apply to everyone.
 
-Each paper goes under the one task it mainly addresses:
+## How to submit
 
-| `category` | Section |
+There are two ways. Pick whichever is easier for you.
+
+**Option 1: open an issue (no setup needed).** Use the [Add a paper](https://github.com/FanBroWell/Crypto-Top-Papers/issues/new?template=add-paper.md) template and fill in the title, venue, year and links. A maintainer will add the entry.
+
+**Option 2: open a pull request.**
+
+1. **One paper per PR**, or a small batch of closely related papers (for example, several papers from the same conference).
+2. **Add one entry to [`papers.yaml`](papers.yaml)**, following the format below. Do not edit `README.md` by hand: it is generated.
+3. **Regenerate the README**: `pip install pyyaml && python scripts/build_readme.py`.
+4. **Use an existing category and existing tags** where possible. Do not create new categories without discussion.
+5. **Describe the PR briefly**: the paper, the link that proves acceptance, and whether you are an author.
+
+## Entry format
+
+```yaml
+- title: "CryptoMixer: Fine-grained market information-aware MLP Networks for Individual Cryptocurrency Trading Prediction"
+  venue: KDD              # one of the 14 covered conferences
+  year: 2025
+  track: main             # main | short | companion | workshop | D&B | findings | industry | demo | blog
+  category: forecasting   # see the table below
+  tags: [MLP, Time-Series]        # methods
+  assets: [Crypto]                # chain or asset class
+  paper: https://doi.org/10.1145/3711896.3736900   # official link preferred
+  code: https://github.com/aqua111000/CryptoMixer  # optional
+  # dataset: true         # optional: add if the paper releases a dataset or benchmark
+  # general: true         # optional: add for ＊ papers (general method, crypto data as a main dataset)
+```
+
+**Categories.** Each paper goes under the one task it mainly addresses.
+
+| `category` | Section in the README |
 |:--|:--|
 | `forecasting` | Price Forecasting & Market Analysis |
 | `trading` | Trading & Portfolio Management |
@@ -53,6 +73,14 @@ Each paper goes under the one task it mainly addresses:
 | `systems` | Blockchain Systems & Infrastructure |
 | `survey` | Surveys, Tutorials & Workshops |
 
-## Tags
+**Tags.** Reuse existing tags so readers can search the page. Common method tags are `GNN`, `Temporal-Graph`, `Hypergraph`, `Transformer`, `LLM`, `Agent`, `RL`, `Time-Series`, `Generative`, `Diffusion`, `Pre-training`, `Game-Theory`, `Measurement`, `Program-Analysis`, `Sharding` and `Consensus`. Asset tags name the chain or asset class, such as `Bitcoin`, `Ethereum`, `Solana`, `DEX`, `NFT`, `DAO` or `Crypto` (several cryptocurrencies). Leave `assets` out when the paper does not name a chain.
 
-Use existing tags where possible so readers can search the page. Common method tags: `GNN`, `Temporal-Graph`, `Hypergraph`, `Transformer`, `LLM`, `Agent`, `RL`, `Time-Series`, `Generative`, `Diffusion`, `Pre-training`, `Game-Theory`, `Measurement`, `Program-Analysis`, `Sharding`, `Consensus`. Asset tags name the chain or asset class, for example `Bitcoin`, `Ethereum`, `Solana`, `DEX`, `NFT`, `DAO`, `Crypto` (multiple cryptocurrencies).
+## What to expect
+
+Every submission gets a reply. Before merging, a maintainer checks the acceptance link and may adjust the category, tags or track label to keep the list consistent. A decline is not permanent: if a preprint is later accepted at a covered venue, please submit it again.
+
+## Scope reminder
+
+This list covers **cryptocurrency, blockchain and Web3 research at 14 CS top conferences**: market forecasting and trading, fraud and attack detection, on-chain analytics, DeFi and MEV, NFTs and DAOs, smart contracts, and blockchain systems. Tools, trading bots, data APIs and blog posts belong in other lists.
+
+Thanks again. Every correct addition makes the list more useful for the next reader.

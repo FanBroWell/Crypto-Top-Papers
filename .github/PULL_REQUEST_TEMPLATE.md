@@ -1,15 +1,21 @@
-## Paper(s) added or changed
+<!-- Thanks for contributing! Please read CONTRIBUTING.md first: it explains what fits this list. -->
 
-<!-- Title, venue and year. -->
+## What does this PR add or change?
 
-## Evidence of acceptance
+<!-- Paper title, venue and year. For a fix, describe the correction. -->
 
-<!-- Official proceedings link (DOI / OpenReview / ACL Anthology / PMLR), or the authors' acceptance note. -->
+## Proof of acceptance
+
+<!-- Official link (DOI / OpenReview / ACL Anthology / PMLR), or where the authors state the paper was accepted. -->
+
+## Are you an author of this paper?
+
+<!-- Authors are welcome to submit their own work; please say so. Write "No" otherwise. -->
 
 ## Checklist
 
-- [ ] The venue is one of the covered conferences (see CONTRIBUTING.md).
-- [ ] The paper is about cryptocurrency, blockchain or Web3, or is marked `general: true` with crypto data as a main dataset.
-- [ ] I edited `papers.yaml` and regenerated the README with `python scripts/build_readme.py`.
-- [ ] I searched the list and this is not a duplicate.
-- [ ] Affiliation disclosure: I am / am not an author of this paper.
+- [ ] I have read [CONTRIBUTING.md](https://github.com/FanBroWell/Crypto-Top-Papers/blob/main/CONTRIBUTING.md)
+- [ ] The paper is accepted at one of the 14 covered conferences, and the link above proves it
+- [ ] One paper per PR (or a small batch of closely related papers)
+- [ ] I edited `papers.yaml` only, then ran `python scripts/build_readme.py` to regenerate `README.md`
+- [ ] I searched the README: this is not a duplicate
