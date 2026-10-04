@@ -6,7 +6,7 @@
 
 NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE · SIGIR · WSDM · ACL · EMNLP
 
-![Papers](https://img.shields.io/badge/papers-160-blue) ![With Code](https://img.shields.io/badge/with%20code-30-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--04-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
+![Papers](https://img.shields.io/badge/papers-154-blue) ![With Code](https://img.shields.io/badge/with%20code-29-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--04-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
 
 </div>
 
@@ -24,12 +24,12 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - [About](#about)
 - [Venue Statistics](#venue-statistics)
 - [Papers by Task](#papers-by-task)
-  - [Price Forecasting & Market Analysis](#price-forecasting--market-analysis) (11)
-  - [Trading & Portfolio Management](#trading--portfolio-management) (17)
+  - [Price Forecasting & Market Analysis](#price-forecasting--market-analysis) (10)
+  - [Trading & Portfolio Management](#trading--portfolio-management) (15)
   - [Fraud, Scam & Attack Detection](#fraud-scam--attack-detection) (22)
   - [On-chain Transaction & Graph Analytics](#on-chain-transaction--graph-analytics) (16)
-  - [DeFi, MEV & Market Mechanisms](#defi-mev--market-mechanisms) (11)
-  - [NFT, DAO & Web3 Ecosystem](#nft-dao--web3-ecosystem) (17)
+  - [DeFi, MEV & Market Mechanisms](#defi-mev--market-mechanisms) (9)
+  - [NFT, DAO & Web3 Ecosystem](#nft-dao--web3-ecosystem) (16)
   - [Smart Contract Security & Analysis](#smart-contract-security--analysis) (19)
   - [Blockchain Systems & Infrastructure](#blockchain-systems--infrastructure) (39)
   - [Surveys, Tutorials & Workshops](#surveys-tutorials--workshops) (8)
@@ -45,11 +45,11 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 | Venue | 2024 | 2025 | 2026 | Total |
 |:--|:-:|:-:|:-:|:-:|
-| NeurIPS | 2 | 5 | 6 | 13 |
-| ICML | – | 1 | 2 | 3 |
+| NeurIPS | 2 | 5 | 3 | 10 |
+| ICML | – | – | 2 | 2 |
 | ICLR | 1 | 2 | 3 | 6 |
 | KDD | 5 | 4 | 3 | 12 |
-| WWW | 29 | 18 | 23 | 70 |
+| WWW | 29 | 18 | 21 | 68 |
 | AAAI | 2 | 3 | 4 | 9 |
 | IJCAI | 3 | 3 | 2 | 8 |
 | CIKM | 3 | 3 | – | 6 |
@@ -59,7 +59,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 | WSDM | – | 1 | – | 1 |
 | ACL | – | – | 2 | 2 |
 | EMNLP | 1 | 1 | – | 2 |
-| **Total** | **56** | **49** | **55** | **160** |
+| **Total** | **56** | **48** | **50** | **154** |
 
 # Papers by Task
 
@@ -67,7 +67,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 *Price, return and volatility forecasting, market simulation, and event or news analysis.*
 
-- (NeurIPS 2026) **Generating Financial Time Series by Matching Random Convolutional Features** ＊ [[Paper](https://openreview.net/forum?id=tLVW1Y9hBz)] `Generative` `Time-Series` · *Crypto*
 - (ICLR 2026) **CTBench: Cryptocurrency Time Series Generation Benchmark** [[Paper](https://openreview.net/forum?id=RzT2sombPD)] `Generative` `Time-Series` · *Crypto*
 - (ICLR 2026 Workshop) **Probabilistic Multivariate Time Series Forecasting with Diffusion Copulas** [[Paper](https://arxiv.org/abs/2605.19685)] `Diffusion` `Time-Series` · *Crypto*
 - (KDD 2026) **Towards Event-Aware Forecasting in DeFi: Insights from On-chain Automated Market Maker Protocols** [[Paper](https://doi.org/10.1145/3770855.3817502)] [[Code](https://github.com/finbrain-lab-hkustgz/Deep-AMM-Events)] `Time-Series` · *DEX*
@@ -87,13 +86,11 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (ICLR 2026) **Trade in Minutes! Rationality-Driven Agentic System for Quantitative Financial Trading** ＊ [[Paper](https://openreview.net/forum?id=ROEwZAxqyS)] `LLM` `Agent` · *Crypto*
 - (KDD 2026) **FineFT: Efficient and Risk-Aware Ensemble Reinforcement Learning for Futures Trading** [[Paper](https://doi.org/10.1145/3770854.3780187)] `RL` · *Crypto*
 - (WWW 2026) **Analysis of CEX-DEX Arbitrage Opportunities with Hidden Markov Models** [[Paper](https://doi.org/10.1145/3774904.3792185)] `HMM` · *DEX*
-- (WWW 2026) **Resisting Manipulative Bots in Meme Coin Copy Trading: A Multi-Agent Approach with Chain-of-Thought Reasoning** [[Paper](https://arxiv.org/abs/2601.08641)] `LLM` `Multi-Agent` · *Memecoin*
 - (WWW 2026 Companion) **Learning-Based Optimization of Atomic Arbitrage in Decentralized Financial Systems** [[Paper](https://doi.org/10.1145/3774905.3794707)] `Optimization` · *DEX*
 - (AAAI 2026) **ArchetypeTrader: Reinforcement Learning for Selecting and Refining Learnable Strategic Archetypes in Quantitative Trading** [[Paper](https://doi.org/10.1609/aaai.v40i34.40166)] [[Code](https://github.com/yfcck/ArchetypeTrader)] `RL` · *Crypto*
 - (ICDE 2026) **TRADER: Real-time Arbitrage Detection via Negative Cycles on Dynamic Graphs** [[Paper](https://doi.org/10.1109/icde65706.2026.00141)] `Graph-Algorithms` · *DEX*
 - (NeurIPS 2025) **OPHR: Mastering Volatility Trading with Multi-Agent Deep Reinforcement Learning** [[Paper](https://openreview.net/forum?id=2p4AtivyZz)] [[Code](https://github.com/Edwicn/OPHR-MasteringVolatilityTradingwithMultiAgentDeepReinforcementLearning)] `RL` `Multi-Agent` · *Bitcoin, Ethereum*
 - (NeurIPS 2025 Workshop) **Orchestration Framework for Financial Agents: From Algorithmic Trading to Agentic Trading** ＊ [[Paper](https://arxiv.org/abs/2512.02227)] [[Code](https://github.com/Open-Finance-Lab/AgenticTrading)] `LLM` `Agent` · *Crypto*
-- (ICML 2025) **Pareto-Optimality, Smoothness, and Stochasticity in Learning-Augmented One-Max-Search** ＊ [[Paper](https://openreview.net/forum?id=ZTOVlPC5Vf)] `Online-Algorithms` · *Bitcoin*
 - (ICLR 2025 Workshop) **Exploring LLM Cryptocurrency Trading Through Fact-Subjectivity Aware Reasoning** [[Paper](https://arxiv.org/abs/2410.12464)] [[Code](https://github.com/HaeSe0ng/FS-ReasoningAgent)] `LLM` · *Crypto*
 - (WWW 2025 Companion) **HedgeAgents: A Balanced-aware Multi-agent Financial Trading System** ＊ [[Paper](https://doi.org/10.1145/3701716.3715232)] [[Code](https://github.com/hedgeagents/hedgeagents.github.io)] `LLM` `Agent` · *Crypto*
 - (CIKM 2025) **Adaptive Bidirectional State Space Model for High-frequency Portfolio Management** ＊ [[Paper](https://doi.org/10.1145/3746252.3761246)] `SSM` `RL` · *Crypto*
@@ -114,7 +111,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (NeurIPS 2025) **BlockScan: Detecting Anomalies in Blockchain Transactions** [[Paper](https://openreview.net/forum?id=URB690A5r5)] `Transformer` `LLM` · *Crypto*
 - (KDD 2025) **TEMPER: Capturing Consistent and Fluctuating TEMPoral User Behaviour for EtheReum Phishing Scam Detection** [[Paper](https://doi.org/10.1145/3690624.3709399)] `Temporal-Graph` · *Ethereum*
 - (WWW 2025) **CATALOG: Exploiting Joint Temporal Dependencies for Enhanced Phishing Detection on Ethereum** [[Paper](https://doi.org/10.1145/3696410.3714903)] `Temporal-Graph` · *Ethereum*
-- (WWW 2025) **Hunting in the Dark Forest: A Pre-trained Model for On-chain Attack Transaction Detection in Web3** [[Paper](https://doi.org/10.1145/3696410.3714928)] [[Code](https://github.com/wuzhy1ng/attack_trans_detection_www25)] `Pre-training` `Transformer` · *EVM*
+- (WWW 2025) **Hunting in the Dark Forest: A Pre-trained Model for On-chain Attack Transaction Detection in Web3** [[Paper](https://doi.org/10.1145/3696410.3714928)] [[Code](https://github.com/wuzhy1ng/attack_trans_detection_www25)] `Pre-training` · *EVM*
 - (WWW 2025) **Safeguarding Blockchain Ecosystem: Understanding and Detecting Attack Transactions on Cross-chain Bridges** [[Paper](https://doi.org/10.1145/3696410.3714604)] `Measurement` · *Cross-chain*
 - (WWW 2025) **Serial Scammers and Attack of the Clones: How Scammers Coordinate Multiple Rug Pulls on Decentralized Exchanges** [[Paper](https://doi.org/10.1145/3696410.3714919)] `Measurement` · *DEX*
 - (WWW 2025) **The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams** [[Paper](https://doi.org/10.1145/3696410.3714588)] `Measurement` · *Crypto*
@@ -142,8 +139,8 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (ICDM 2025) **When LLM Meets Simplicial Complex: A Novel Graph Prompt Learning on Ethereum Transaction Networks** [[Paper](https://doi.org/10.1109/icdm65498.2025.00148)] `LLM` `GNN` · *Ethereum*
 - (ICDE 2025) **Know Your Account: Double Graph Inference-Based Account De-Anonymization on Ethereum** [[Paper](https://doi.org/10.1109/icde65448.2025.00102)] `GNN` · *Ethereum*
 - (WSDM 2025) **Optimizing Blockchain Analysis: Tackling Temporality and Scalability with an Incremental Approach with Metropolis-Hastings Random Walks** [[Paper](https://doi.org/10.1145/3701551.3703521)] `Graph-Sampling` · *Crypto*
-- (NeurIPS 2024 D&B) **Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html)] [[Code](https://github.com/Xtra-Computing/Cryptocurrency-Graphs-of-graphs)] `GNN` · *Multi-chain*
-- (ICLR 2024) **EX-Graph: A Pioneering Dataset Bridging Ethereum and X** [[Paper](https://openreview.net/forum?id=juE0rWGCJW)] `GNN` · *Ethereum*
+- (NeurIPS 2024 D&B) **Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html)] [[Code](https://github.com/Xtra-Computing/Cryptocurrency-Graphs-of-graphs)] · *Multi-chain*
+- (ICLR 2024) **EX-Graph: A Pioneering Dataset Bridging Ethereum and X** [[Paper](https://openreview.net/forum?id=juE0rWGCJW)] · *Ethereum*
 - (KDD 2024) **BitLINK: Temporal Linkage of Address Clusters in Bitcoin Blockchain** [[Paper](https://doi.org/10.1145/3637528.3672037)] `Clustering` · *Bitcoin*
 - (WWW 2024) **Exploring Unconfirmed Transactions for Effective Bitcoin Address Clustering** [[Paper](https://doi.org/10.1145/3589334.3645684)] `Clustering` · *Bitcoin*
 - (WWW 2024 Companion) **Anonymity Analysis of the Umbra Stealth Address Scheme on Ethereum** [[Paper](https://doi.org/10.1145/3589335.3651963)] `Privacy` · *Ethereum*
@@ -153,15 +150,13 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 *AMMs and liquidity, MEV and block building, transaction fee mechanisms and token incentives.*
 
-- (NeurIPS 2026) **Context Binding and Reusable Leakage in Threshold Decryption** [[Paper](https://openreview.net/forum?id=I8M8PZy2XG)] `Cryptography` `Encrypted-Mempool`
-- (NeurIPS 2026) **Leakage Thresholds for Sandwich Equilibria Under Partial Information** [[Paper](https://openreview.net/forum?id=yuiJS0iLhX)] `Game-Theory` · *DEX*
 - (WWW 2026) **Deterring A Small Collusion is All You Need** [[Paper](https://doi.org/10.1145/3774904.3792121)] `Mechanism-Design`
 - (WWW 2026) **LiquidityPool: Game-Theoretic Analysis of Stakeholder Revenue in Ranking-Dependent DeFi** [[Paper](https://doi.org/10.1145/3774904.3792260)] `Game-Theory` · *DeFi*
 - (WWW 2026 Companion) **Benchmarking Temporal Web3 Intelligence: Lessons from the FinSurvival 2025 Challenge** [[Paper](https://doi.org/10.1145/3774905.3795449)] `Survival-Analysis` · *DeFi*
 - (ICDE 2026) **PRIME: Efficient Algorithm for Token Graph Routing Problem** [[Paper](https://doi.org/10.1109/icde65706.2026.00214)] `Graph-Algorithms` · *DEX*
 - (WWW 2025) **Private Order Flows and Builder Bidding Dynamics: The Road to Monopoly in Ethereum's Block Building Market** [[Paper](https://doi.org/10.1145/3696410.3714754)] `Measurement` `Game-Theory` · *Ethereum*
 - (IJCAI 2025) **Airdrop Games** [[Paper](https://doi.org/10.24963/ijcai.2025/431)] `Game-Theory` · *Token*
-- (IJCAI 2025) **Smart Contracts for Trustless Sampling of Correlated Equilibria** [[Paper](https://doi.org/10.24963/ijcai.2025/416)] `Game-Theory` · *Ethereum*
+- (IJCAI 2025) **Smart Contracts for Trustless Sampling of Correlated Equilibria** [[Paper](https://doi.org/10.24963/ijcai.2025/416)] `Game-Theory`
 - (KDD 2024) **Money Never Sleeps: Maximizing Liquidity Mining Yields in Decentralized Finance** [[Paper](https://doi.org/10.1145/3637528.3671942)] `Optimization` · *DeFi*
 - (WWW 2024 Companion) **Measuring Arbitrage Losses and Profitability of AMM Liquidity** [[Paper](https://doi.org/10.1145/3589335.3651961)] `Measurement` · *DEX*
 
@@ -172,7 +167,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (KDD 2026) **DMind Benchmark: Toward a Holistic Assessment of LLM Capabilities across the Web3 Domain** [[Paper](https://doi.org/10.1145/3770855.3817512)] `LLM` · *Web3*
 - (WWW 2026) **ShadowClone: Scalable Decentralized Identity with Cross-Domain Anonymity and Accountable Traceability** [[Paper](https://doi.org/10.1145/3774904.3792424)] `Cryptography` · *DID*
 - (WWW 2026) **The Promise vs. Reality of NFT Decentralization: An Empirical Study of Storage Strategies and Defects** [[Paper](https://doi.org/10.1145/3774904.3792338)] `Measurement` · *NFT*
-- (WWW 2026 Short) **Decentralized in Name Only: The Centralization of DAO Labor** [[Paper](https://hcmi.ee.torontomu.ca/publication/decentralized-in-name-only-centralization-dao-labor/)] `Qualitative` · *DAO*
 - (KDD 2025) **Breeding-aware Revenue Maximization for NFT Viral Marketing on Social Networks** [[Paper](https://doi.org/10.1145/3711896.3736867)] `Influence-Maximization` · *NFT*
 - (WWW 2025) **Beyond Visual Confusion: Understanding How Inconsistencies in ENS Normalization Facilitate Homoglyph Attacks** [[Paper](https://doi.org/10.1145/3696410.3714675)] `Measurement` · *ENS*
 - (WWW 2025) **Fully Anonymous Decentralized Identity Supporting Threshold Traceability with Practical Blockchain** [[Paper](https://doi.org/10.1145/3696410.3714762)] `Cryptography` · *DID*
@@ -191,25 +185,25 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 *Vulnerability detection, program analysis, decompilation, code generation and auditing agents.*
 
-- (NeurIPS 2026) **Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis** [[Paper](https://openreview.net/forum?id=0NgpgjG8bV)] `RL` `Symbolic-Execution` · *Ethereum*
-- (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `LLM` `Agent` · *Ethereum*
+- (NeurIPS 2026) **Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis** [[Paper](https://openreview.net/forum?id=0NgpgjG8bV)] `RL` `Symbolic-Execution`
+- (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `Agent` · *Ethereum*
 - (AAAI 2026) **BugSweeper: Function-Level Detection of Smart Contract Vulnerabilities Using Graph Neural Networks** [[Paper](https://doi.org/10.1609/aaai.v40i1.37021)] `GNN` · *Ethereum*
 - (ACL 2026) **EVM-QuestBench: An Execution-Grounded Benchmark for Natural-Language Transaction Code Generation** [[Paper](https://doi.org/10.18653/v1/2026.acl-long.1642)] [[Code](https://github.com/OpenEdgeHQ/EVM-quest-bench)] `LLM` · *Ethereum*
-- (ACL 2026) **Towards Trustworthy Smart Contract Synthesis: A Multi-Agent Framework with Lean-Based Verification** [[Paper](https://doi.org/10.18653/v1/2026.acl-long.1836)] `LLM` `Agent` `Formal-Verification` · *Ethereum*
+- (ACL 2026) **Towards Trustworthy Smart Contract Synthesis: A Multi-Agent Framework with Lean-Based Verification** [[Paper](https://doi.org/10.18653/v1/2026.acl-long.1836)] `Agent` `Formal-Verification`
 - (WWW 2025) **Quantitative Runtime Monitoring of Ethereum Transaction Attacks** [[Paper](https://doi.org/10.1145/3696410.3714682)] `Runtime-Verification` · *Ethereum*
 - (WWW 2025) **SigScope: Detecting and Understanding Off-Chain Message Signing-related Vulnerabilities in Decentralized Applications** [[Paper](https://doi.org/10.1145/3696410.3714686)] `Program-Analysis` · *DApp*
 - (WWW 2025) **SuiGPT MAD: Move AI Decompiler to Improve Transparency and Auditability on Non-Open-Source Blockchain Smart Contract** [[Paper](https://doi.org/10.1145/3696410.3714790)] `LLM` · *Sui*
-- (AAAI 2025) **CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection** [[Paper](https://doi.org/10.1609/aaai.v39i1.31981)] `Contrastive` · *Ethereum*
-- (AAAI 2025) **MTVHunter: Smart Contracts Vulnerability Detection Based on Multi-Teacher Knowledge Translation** [[Paper](https://doi.org/10.1609/aaai.v39i14.33664)] [[Code](https://github.com/KD-SCVD/MTVHunter)] `Knowledge-Distillation` · *Ethereum*
+- (AAAI 2025) **CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection** [[Paper](https://doi.org/10.1609/aaai.v39i1.31981)] `Contrastive`
+- (AAAI 2025) **MTVHunter: Smart Contracts Vulnerability Detection Based on Multi-Teacher Knowledge Translation** [[Paper](https://doi.org/10.1609/aaai.v39i14.33664)] [[Code](https://github.com/KD-SCVD/MTVHunter)] `Knowledge-Distillation`
 - (AAAI 2025) **SCALM: Detecting Bad Practices in Smart Contracts Through LLMs** [[Paper](https://doi.org/10.1609/aaai.v39i1.32026)] `LLM` · *Ethereum*
-- (IJCAI 2025) **Guiding LLM-based Smart Contract Generation with Finite State Machine** [[Paper](https://doi.org/10.24963/ijcai.2025/653)] `LLM` · *Ethereum*
+- (IJCAI 2025) **Guiding LLM-based Smart Contract Generation with Finite State Machine** [[Paper](https://doi.org/10.24963/ijcai.2025/653)] `LLM`
 - (EMNLP 2025) **SolEval: Benchmarking Large Language Models for Repository-level Solidity Smart Contract Generation** [[Paper](https://doi.org/10.18653/v1/2025.emnlp-main.218)] [[Code](https://github.com/pzy2000/SolEval)] `LLM` · *Ethereum*
-- (NeurIPS 2024) **Detecting Bugs with Substantial Monetary Consequences by LLM and Rule-based Reasoning** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/f1d8400fec75f683c4d823f5836a81bb-Abstract-Conference.html)] `LLM` `Program-Analysis` · *Ethereum*
+- (NeurIPS 2024) **Detecting Bugs with Substantial Monetary Consequences by LLM and Rule-based Reasoning** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/f1d8400fec75f683c4d823f5836a81bb-Abstract-Conference.html)] `LLM` `Program-Analysis`
 - (WWW 2024) **Characterizing Ethereum Upgradable Smart Contracts and Their Security Implications** [[Paper](https://doi.org/10.1145/3589334.3645640)] `Measurement` · *Ethereum*
 - (WWW 2024 Companion) **DeFiTail: DeFi Protocol Inspection through Cross-Contract Execution Analysis** [[Paper](https://doi.org/10.1145/3589335.3651488)] `Program-Analysis` · *DeFi*
 - (WWW 2024 Companion) **StateGuard: Detecting State Derailment Defects in Decentralized Exchange Smart Contract** [[Paper](https://doi.org/10.1145/3589335.3651562)] `Program-Analysis` · *DEX*
-- (IJCAI 2024) **EFEVD: Enhanced Feature Extraction for Smart Contract Vulnerability Detection** [[Paper](https://doi.org/10.24963/ijcai.2024/469)] `Deep-Learning` `Vulnerability-Detection` · *Ethereum*
-- (ICDE 2024) **MuFuzz: Sequence-Aware Mutation and Seed Mask Guidance for Blockchain Smart Contract Fuzzing** [[Paper](https://doi.org/10.1109/icde60146.2024.00158)] [[Code](https://github.com/OMH4ck/mufuzz)] `Fuzzing` · *Ethereum*
+- (IJCAI 2024) **EFEVD: Enhanced Feature Extraction for Smart Contract Vulnerability Detection** [[Paper](https://doi.org/10.24963/ijcai.2024/469)] `Deep-Learning` `Vulnerability-Detection`
+- (ICDE 2024) **MuFuzz: Sequence-Aware Mutation and Seed Mask Guidance for Blockchain Smart Contract Fuzzing** [[Paper](https://doi.org/10.1109/icde60146.2024.00158)] `Fuzzing`
 
 ## Blockchain Systems & Infrastructure
 
@@ -221,7 +215,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (WWW 2026) **Eclipse Attacks on Ethereum's Peer-to-Peer Network** [[Paper](https://doi.org/10.1145/3774904.3792231)] `P2P-Security` · *Ethereum*
 - (WWW 2026) **Greedy Attack: Breaking Finality against VeChain Proof-of-Authority Consensus Protocol** [[Paper](https://doi.org/10.1145/3774904.3792513)] `Consensus-Security` · *VeChain*
 - (WWW 2026) **On the Effectiveness of Mempool-based Transaction Auditing** [[Paper](https://doi.org/10.1145/3774904.3792404)] `Measurement` · *Ethereum*
-- (WWW 2026) **Risk-free Selfish Mining in Hybrid Predictability Model. A Case Study on Polkadot's NPoS** [[Paper](https://doi.org/10.1145/3774904.3792560)] `Game-Theory` · *Polkadot*
+- (WWW 2026) **Risk-free Selfish Mining in Hybrid Predictability Model. A Case Study on Polkadot's NPoS** [[Paper](https://doi.org/10.1145/3774904.3792560)] · *Polkadot*
 - (WWW 2026 Companion) **A Taxonomy-Driven Cryptographic Dependency Inventory for Post-Quantum Migration in Decentralized Systems: Triage Rules and a Worked Example** [[Paper](https://doi.org/10.1145/3774905.3794696)] `Post-Quantum`
 - (ICDE 2026) **Banknote-Chain: Achieving User-Incentivized Parallelism in Blockchain via a Banknote-Inspired Transaction Model** [[Paper](https://doi.org/10.1109/icde65706.2026.00055)] [[Code](https://github.com/zhiyongm/Banknote-Chain)] `Systems`
 - (ICDE 2026) **Chubby: Robust Smart Contract Execution Against Dependency Over-Declaration** [[Paper](https://doi.org/10.1109/icde65706.2026.00119)] `Concurrency`
@@ -231,7 +225,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (ICDE 2026) **RoarChain: A Robust Sharding Blockchain System for Enterprise Consortium** [[Paper](https://doi.org/10.1109/icde65706.2026.00014)] `Sharding` · *Permissioned*
 - (ICDE 2026) **SpendableStore: A UTXO-Based Decentralized Data Store** [[Paper](https://doi.org/10.1109/icde65706.2026.00153)] `Storage` · *UTXO*
 - (WWW 2025) **AERO: Enhancing Sharding Blockchain via Deep Reinforcement Learning for Account Migration** [[Paper](https://doi.org/10.1145/3696410.3714926)] `RL` `Sharding`
-- (WWW 2025) **MAP the Blockchain World: A Trustless and Scalable Blockchain Interoperability Protocol for Cross-chain Applications** [[Paper](https://doi.org/10.1145/3696410.3714867)] `Interoperability` · *Multi-chain*
+- (WWW 2025) **MAP the Blockchain World: A Trustless and Scalable Blockchain Interoperability Protocol for Cross-chain Applications** [[Paper](https://doi.org/10.1145/3696410.3714867)] `Interoperability` · *Cross-chain*
 - (ICDE 2025) **E³FS: Efficient, Secure, and Verifiable Fuzzy Search with Data Updates in Hybrid-Storage Blockchains** [[Paper](https://doi.org/10.1109/icde65448.2025.00290)] `Query-Processing`
 - (ICDE 2025) **Loom: A Deterministic Execution Framework Towards Nested Contract Transactions** [[Paper](https://doi.org/10.1109/icde65448.2025.00182)] `Concurrency` · *Permissioned*
 - (ICDE 2025) **MEST: An Efficient Authenticated Secondary Index in Blockchain Systems** [[Paper](https://doi.org/10.1109/icde65448.2025.00126)] `Indexing`
@@ -274,13 +268,10 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 ## 2026
 
-- (NeurIPS 2026) **Context Binding and Reusable Leakage in Threshold Decryption** [[Paper](https://openreview.net/forum?id=I8M8PZy2XG)] `Cryptography` `Encrypted-Mempool` — *DeFi, MEV & Market Mechanisms*
-- (NeurIPS 2026) **Generating Financial Time Series by Matching Random Convolutional Features** ＊ [[Paper](https://openreview.net/forum?id=tLVW1Y9hBz)] `Generative` `Time-Series` · *Crypto* — *Price Forecasting & Market Analysis*
-- (NeurIPS 2026) **Leakage Thresholds for Sandwich Equilibria Under Partial Information** [[Paper](https://openreview.net/forum?id=yuiJS0iLhX)] `Game-Theory` · *DEX* — *DeFi, MEV & Market Mechanisms*
 - (NeurIPS 2026) **Market Regime Council for Dynamic Credit Assignment in Multi-Agent LLM Decision Systems** [[Paper](https://openreview.net/forum?id=xuhyMmn0D0)] `LLM` `Agent` · *Crypto* — *Trading & Portfolio Management*
 - (NeurIPS 2026) **RAMA: Resistance-Aware Multi-Hop Aggregation Graph Representation Learning for Robust Ethereum Account Classification** [[Paper](https://openreview.net/forum?id=E2j4hTCc0W)] `GNN` · *Ethereum* — *On-chain Transaction & Graph Analytics*
-- (NeurIPS 2026) **Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis** [[Paper](https://openreview.net/forum?id=0NgpgjG8bV)] `RL` `Symbolic-Execution` · *Ethereum* — *Smart Contract Security & Analysis*
-- (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `LLM` `Agent` · *Ethereum* — *Smart Contract Security & Analysis*
+- (NeurIPS 2026) **Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis** [[Paper](https://openreview.net/forum?id=0NgpgjG8bV)] `RL` `Symbolic-Execution` — *Smart Contract Security & Analysis*
+- (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `Agent` · *Ethereum* — *Smart Contract Security & Analysis*
 - (ICML 2026) **Scam2Prompt: A Scalable Framework for Auditing Malicious Scam Endpoints in Production LLMs** ＊ [[Paper](https://openreview.net/forum?id=jEQQBE30m1)] [[Code](https://github.com/Scam2Prompt/Scam2Prompt)] `LLM` · *Web3* — *Fraud, Scam & Attack Detection*
 - (ICLR 2026) **CTBench: Cryptocurrency Time Series Generation Benchmark** [[Paper](https://openreview.net/forum?id=RzT2sombPD)] `Generative` `Time-Series` · *Crypto* — *Price Forecasting & Market Analysis*
 - (ICLR 2026) **Trade in Minutes! Rationality-Driven Agentic System for Quantitative Financial Trading** ＊ [[Paper](https://openreview.net/forum?id=ROEwZAxqyS)] `LLM` `Agent` · *Crypto* — *Trading & Portfolio Management*
@@ -299,15 +290,13 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (WWW 2026) **LiquidityPool: Game-Theoretic Analysis of Stakeholder Revenue in Ranking-Dependent DeFi** [[Paper](https://doi.org/10.1145/3774904.3792260)] `Game-Theory` · *DeFi* — *DeFi, MEV & Market Mechanisms*
 - (WWW 2026) **Multi-Modal Enhanced Graph Transfer Learning for Digital Finance Fraud Detection** [[Paper](https://doi.org/10.1145/3774904.3792946)] `GNN` `Multimodal` `Transfer-Learning` · *Crypto* — *Fraud, Scam & Attack Detection*
 - (WWW 2026) **On the Effectiveness of Mempool-based Transaction Auditing** [[Paper](https://doi.org/10.1145/3774904.3792404)] `Measurement` · *Ethereum* — *Blockchain Systems & Infrastructure*
-- (WWW 2026) **Resisting Manipulative Bots in Meme Coin Copy Trading: A Multi-Agent Approach with Chain-of-Thought Reasoning** [[Paper](https://arxiv.org/abs/2601.08641)] `LLM` `Multi-Agent` · *Memecoin* — *Trading & Portfolio Management*
-- (WWW 2026) **Risk-free Selfish Mining in Hybrid Predictability Model. A Case Study on Polkadot's NPoS** [[Paper](https://doi.org/10.1145/3774904.3792560)] `Game-Theory` · *Polkadot* — *Blockchain Systems & Infrastructure*
+- (WWW 2026) **Risk-free Selfish Mining in Hybrid Predictability Model. A Case Study on Polkadot's NPoS** [[Paper](https://doi.org/10.1145/3774904.3792560)] · *Polkadot* — *Blockchain Systems & Infrastructure*
 - (WWW 2026) **ShadowClone: Scalable Decentralized Identity with Cross-Domain Anonymity and Accountable Traceability** [[Paper](https://doi.org/10.1145/3774904.3792424)] `Cryptography` · *DID* — *NFT, DAO & Web3 Ecosystem*
 - (WWW 2026) **TGweaver: Synthesizing Transaction Graphs for De-anonymization Analysis** [[Paper](https://doi.org/10.1145/3774904.3792318)] `Data-Synthesis` · *Mixer* — *On-chain Transaction & Graph Analytics*
 - (WWW 2026) **The Promise vs. Reality of NFT Decentralization: An Empirical Study of Storage Strategies and Defects** [[Paper](https://doi.org/10.1145/3774904.3792338)] `Measurement` · *NFT* — *NFT, DAO & Web3 Ecosystem*
 - (WWW 2026) **Understanding Post-Exploit Laundering Behavior on Ethereum** [[Paper](https://doi.org/10.1145/3774904.3792918)] `Measurement` · *Ethereum* — *Fraud, Scam & Attack Detection*
 - (WWW 2026 Companion) **A Taxonomy-Driven Cryptographic Dependency Inventory for Post-Quantum Migration in Decentralized Systems: Triage Rules and a Worked Example** [[Paper](https://doi.org/10.1145/3774905.3794696)] `Post-Quantum` — *Blockchain Systems & Infrastructure*
 - (WWW 2026 Companion) **Benchmarking Temporal Web3 Intelligence: Lessons from the FinSurvival 2025 Challenge** [[Paper](https://doi.org/10.1145/3774905.3795449)] `Survival-Analysis` · *DeFi* — *DeFi, MEV & Market Mechanisms*
-- (WWW 2026 Short) **Decentralized in Name Only: The Centralization of DAO Labor** [[Paper](https://hcmi.ee.torontomu.ca/publication/decentralized-in-name-only-centralization-dao-labor/)] `Qualitative` · *DAO* — *NFT, DAO & Web3 Ecosystem*
 - (WWW 2026 Companion) **Learning-Based Optimization of Atomic Arbitrage in Decentralized Financial Systems** [[Paper](https://doi.org/10.1145/3774905.3794707)] `Optimization` · *DEX* — *Trading & Portfolio Management*
 - (WWW 2026 Companion) **Quantum-Safe, Efficient, and AI-Enhanced Blockchains for the Web: A Cooperative Tutorial on Quantum Computing, Blockchain Applications, and Data Standards** [[Paper](https://doi.org/10.1145/3774905.3793916)] `Tutorial` — *Surveys, Tutorials & Workshops*
 - (WWW 2026 Companion) **ZABAPAD 2026: 1st Workshop on Zero-knowledge Proof and Blockchain for WEB 4.0: Advancing the Post-quantum and Decentralized Era** [[Paper](https://doi.org/10.1145/3774905.3794693)] `Workshop` — *Surveys, Tutorials & Workshops*
@@ -328,7 +317,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (ICDE 2026) **TRADER: Real-time Arbitrage Detection via Negative Cycles on Dynamic Graphs** [[Paper](https://doi.org/10.1109/icde65706.2026.00141)] `Graph-Algorithms` · *DEX* — *Trading & Portfolio Management*
 - (SIGIR 2026) **TDHGNN: A Temporal Directed Hypergraph Neural Network for Bitcoin Fraud Detection** [[Paper](https://doi.org/10.1145/3805712.3809899)] [[Code](https://github.com/KellyGong/TDHGNN)] `Hypergraph` `Temporal-Graph` · *Bitcoin* — *Fraud, Scam & Attack Detection*
 - (ACL 2026) **EVM-QuestBench: An Execution-Grounded Benchmark for Natural-Language Transaction Code Generation** [[Paper](https://doi.org/10.18653/v1/2026.acl-long.1642)] [[Code](https://github.com/OpenEdgeHQ/EVM-quest-bench)] `LLM` · *Ethereum* — *Smart Contract Security & Analysis*
-- (ACL 2026) **Towards Trustworthy Smart Contract Synthesis: A Multi-Agent Framework with Lean-Based Verification** [[Paper](https://doi.org/10.18653/v1/2026.acl-long.1836)] `LLM` `Agent` `Formal-Verification` · *Ethereum* — *Smart Contract Security & Analysis*
+- (ACL 2026) **Towards Trustworthy Smart Contract Synthesis: A Multi-Agent Framework with Lean-Based Verification** [[Paper](https://doi.org/10.18653/v1/2026.acl-long.1836)] `Agent` `Formal-Verification` — *Smart Contract Security & Analysis*
 
 ## 2025
 
@@ -337,7 +326,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (NeurIPS 2025 D&B) **MiNT: Multi-Network Transfer Benchmark for Temporal Graph Learning** [[Paper](https://openreview.net/forum?id=Za7IcsXIRV)] [[Code](https://github.com/benjaminnNgo/ScalingTGNs)] `Temporal-Graph` `Transfer-Learning` · *Ethereum* — *On-chain Transaction & Graph Analytics*
 - (NeurIPS 2025 Workshop) **Orchestration Framework for Financial Agents: From Algorithmic Trading to Agentic Trading** ＊ [[Paper](https://arxiv.org/abs/2512.02227)] [[Code](https://github.com/Open-Finance-Lab/AgenticTrading)] `LLM` `Agent` · *Crypto* — *Trading & Portfolio Management*
 - (NeurIPS 2025 D&B) **The Temporal Graph of Bitcoin Transactions** [[Paper](https://openreview.net/forum?id=Xs7JM4VGHv)] [[Code](https://github.com/B1AAB/EBA)] `Temporal-Graph` · *Bitcoin* — *On-chain Transaction & Graph Analytics*
-- (ICML 2025) **Pareto-Optimality, Smoothness, and Stochasticity in Learning-Augmented One-Max-Search** ＊ [[Paper](https://openreview.net/forum?id=ZTOVlPC5Vf)] `Online-Algorithms` · *Bitcoin* — *Trading & Portfolio Management*
 - (ICLR 2025 Workshop) **Exploring LLM Cryptocurrency Trading Through Fact-Subjectivity Aware Reasoning** [[Paper](https://arxiv.org/abs/2410.12464)] [[Code](https://github.com/HaeSe0ng/FS-ReasoningAgent)] `LLM` · *Crypto* — *Trading & Portfolio Management*
 - (ICLR 2025 Workshop) **FinTSBridge: A New Evaluation Suite for Real-world Financial Prediction with Advanced Time Series Models** ＊ [[Paper](https://arxiv.org/abs/2503.06928)] `Time-Series` · *Crypto* — *Price Forecasting & Market Analysis*
 - (KDD 2025) **Breeding-aware Revenue Maximization for NFT Viral Marketing on Social Networks** [[Paper](https://doi.org/10.1145/3711896.3736867)] `Influence-Maximization` · *NFT* — *NFT, DAO & Web3 Ecosystem*
@@ -349,9 +337,9 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (WWW 2025) **CATALOG: Exploiting Joint Temporal Dependencies for Enhanced Phishing Detection on Ethereum** [[Paper](https://doi.org/10.1145/3696410.3714903)] `Temporal-Graph` · *Ethereum* — *Fraud, Scam & Attack Detection*
 - (WWW 2025) **Fully Anonymous Decentralized Identity Supporting Threshold Traceability with Practical Blockchain** [[Paper](https://doi.org/10.1145/3696410.3714762)] `Cryptography` · *DID* — *NFT, DAO & Web3 Ecosystem*
 - (WWW 2025) **Gamblers or Delegatees: Identifying Hidden Participant Roles in Crypto Casinos** [[Paper](https://doi.org/10.1145/3696410.3714689)] `Measurement` · *Crypto* — *On-chain Transaction & Graph Analytics*
-- (WWW 2025) **Hunting in the Dark Forest: A Pre-trained Model for On-chain Attack Transaction Detection in Web3** [[Paper](https://doi.org/10.1145/3696410.3714928)] [[Code](https://github.com/wuzhy1ng/attack_trans_detection_www25)] `Pre-training` `Transformer` · *EVM* — *Fraud, Scam & Attack Detection*
+- (WWW 2025) **Hunting in the Dark Forest: A Pre-trained Model for On-chain Attack Transaction Detection in Web3** [[Paper](https://doi.org/10.1145/3696410.3714928)] [[Code](https://github.com/wuzhy1ng/attack_trans_detection_www25)] `Pre-training` · *EVM* — *Fraud, Scam & Attack Detection*
 - (WWW 2025) **Linking Souls to Humans: Blockchain Accounts with Credible Anonymity for Web 3.0 Decentralized Identity** [[Paper](https://doi.org/10.1145/3696410.3714784)] `Cryptography` · *DID* — *NFT, DAO & Web3 Ecosystem*
-- (WWW 2025) **MAP the Blockchain World: A Trustless and Scalable Blockchain Interoperability Protocol for Cross-chain Applications** [[Paper](https://doi.org/10.1145/3696410.3714867)] `Interoperability` · *Multi-chain* — *Blockchain Systems & Infrastructure*
+- (WWW 2025) **MAP the Blockchain World: A Trustless and Scalable Blockchain Interoperability Protocol for Cross-chain Applications** [[Paper](https://doi.org/10.1145/3696410.3714867)] `Interoperability` · *Cross-chain* — *Blockchain Systems & Infrastructure*
 - (WWW 2025) **NFTs as a Data-Rich Test Bed: Conspicuous Consumption and its Determinants** [[Paper](https://doi.org/10.1145/3696410.3714724)] `Economics` · *NFT* — *NFT, DAO & Web3 Ecosystem*
 - (WWW 2025) **Private Order Flows and Builder Bidding Dynamics: The Road to Monopoly in Ethereum's Block Building Market** [[Paper](https://doi.org/10.1145/3696410.3714754)] `Measurement` `Game-Theory` · *Ethereum* — *DeFi, MEV & Market Mechanisms*
 - (WWW 2025) **Quantitative Runtime Monitoring of Ethereum Transaction Attacks** [[Paper](https://doi.org/10.1145/3696410.3714682)] `Runtime-Verification` · *Ethereum* — *Smart Contract Security & Analysis*
@@ -362,12 +350,12 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (WWW 2025) **The Poorest Man in Babylon: A Longitudinal Study of Cryptocurrency Investment Scams** [[Paper](https://doi.org/10.1145/3696410.3714588)] `Measurement` · *Crypto* — *Fraud, Scam & Attack Detection*
 - (WWW 2025 Companion) **Bridging Culture and Finance: A Multimodal Analysis of Memecoins in the Web3 Ecosystem** [[Paper](https://doi.org/10.1145/3701716.3715561)] [[Code](https://github.com/hwlongCUHK/Coin-Meme)] `Multimodal` · *Memecoin* — *NFT, DAO & Web3 Ecosystem*
 - (WWW 2025 Companion) **HedgeAgents: A Balanced-aware Multi-agent Financial Trading System** ＊ [[Paper](https://doi.org/10.1145/3701716.3715232)] [[Code](https://github.com/hedgeagents/hedgeagents.github.io)] `LLM` `Agent` · *Crypto* — *Trading & Portfolio Management*
-- (AAAI 2025) **CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection** [[Paper](https://doi.org/10.1609/aaai.v39i1.31981)] `Contrastive` · *Ethereum* — *Smart Contract Security & Analysis*
-- (AAAI 2025) **MTVHunter: Smart Contracts Vulnerability Detection Based on Multi-Teacher Knowledge Translation** [[Paper](https://doi.org/10.1609/aaai.v39i14.33664)] [[Code](https://github.com/KD-SCVD/MTVHunter)] `Knowledge-Distillation` · *Ethereum* — *Smart Contract Security & Analysis*
+- (AAAI 2025) **CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection** [[Paper](https://doi.org/10.1609/aaai.v39i1.31981)] `Contrastive` — *Smart Contract Security & Analysis*
+- (AAAI 2025) **MTVHunter: Smart Contracts Vulnerability Detection Based on Multi-Teacher Knowledge Translation** [[Paper](https://doi.org/10.1609/aaai.v39i14.33664)] [[Code](https://github.com/KD-SCVD/MTVHunter)] `Knowledge-Distillation` — *Smart Contract Security & Analysis*
 - (AAAI 2025) **SCALM: Detecting Bad Practices in Smart Contracts Through LLMs** [[Paper](https://doi.org/10.1609/aaai.v39i1.32026)] `LLM` · *Ethereum* — *Smart Contract Security & Analysis*
 - (IJCAI 2025) **Airdrop Games** [[Paper](https://doi.org/10.24963/ijcai.2025/431)] `Game-Theory` · *Token* — *DeFi, MEV & Market Mechanisms*
-- (IJCAI 2025) **Guiding LLM-based Smart Contract Generation with Finite State Machine** [[Paper](https://doi.org/10.24963/ijcai.2025/653)] `LLM` · *Ethereum* — *Smart Contract Security & Analysis*
-- (IJCAI 2025) **Smart Contracts for Trustless Sampling of Correlated Equilibria** [[Paper](https://doi.org/10.24963/ijcai.2025/416)] `Game-Theory` · *Ethereum* — *DeFi, MEV & Market Mechanisms*
+- (IJCAI 2025) **Guiding LLM-based Smart Contract Generation with Finite State Machine** [[Paper](https://doi.org/10.24963/ijcai.2025/653)] `LLM` — *Smart Contract Security & Analysis*
+- (IJCAI 2025) **Smart Contracts for Trustless Sampling of Correlated Equilibria** [[Paper](https://doi.org/10.24963/ijcai.2025/416)] `Game-Theory` — *DeFi, MEV & Market Mechanisms*
 - (CIKM 2025) **Adaptive Bidirectional State Space Model for High-frequency Portfolio Management** ＊ [[Paper](https://doi.org/10.1145/3746252.3761246)] `SSM` `RL` · *Crypto* — *Trading & Portfolio Management*
 - (CIKM 2025) **CoinCLIP: A Multimodal Framework for Assessing Viability in Web3 Memecoins** [[Paper](https://doi.org/10.1145/3746252.3760881)] `Multimodal` · *Memecoin* — *NFT, DAO & Web3 Ecosystem*
 - (CIKM 2025) **From Patterns to Predictions: A Shapelet-Based Framework for Directional Forecasting in Noisy Financial Markets** ＊ [[Paper](https://doi.org/10.1145/3746252.3761250)] `Shapelet` `Time-Series` · *Bitcoin* — *Price Forecasting & Market Analysis*
@@ -384,9 +372,9 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 ## 2024
 
-- (NeurIPS 2024) **Detecting Bugs with Substantial Monetary Consequences by LLM and Rule-based Reasoning** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/f1d8400fec75f683c4d823f5836a81bb-Abstract-Conference.html)] `LLM` `Program-Analysis` · *Ethereum* — *Smart Contract Security & Analysis*
-- (NeurIPS 2024 D&B) **Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html)] [[Code](https://github.com/Xtra-Computing/Cryptocurrency-Graphs-of-graphs)] `GNN` · *Multi-chain* — *On-chain Transaction & Graph Analytics*
-- (ICLR 2024) **EX-Graph: A Pioneering Dataset Bridging Ethereum and X** [[Paper](https://openreview.net/forum?id=juE0rWGCJW)] `GNN` · *Ethereum* — *On-chain Transaction & Graph Analytics*
+- (NeurIPS 2024) **Detecting Bugs with Substantial Monetary Consequences by LLM and Rule-based Reasoning** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/f1d8400fec75f683c4d823f5836a81bb-Abstract-Conference.html)] `LLM` `Program-Analysis` — *Smart Contract Security & Analysis*
+- (NeurIPS 2024 D&B) **Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html)] [[Code](https://github.com/Xtra-Computing/Cryptocurrency-Graphs-of-graphs)] · *Multi-chain* — *On-chain Transaction & Graph Analytics*
+- (ICLR 2024) **EX-Graph: A Pioneering Dataset Bridging Ethereum and X** [[Paper](https://openreview.net/forum?id=juE0rWGCJW)] · *Ethereum* — *On-chain Transaction & Graph Analytics*
 - (KDD 2024) **BitLINK: Temporal Linkage of Address Clusters in Bitcoin Blockchain** [[Paper](https://doi.org/10.1145/3637528.3672037)] `Clustering` · *Bitcoin* — *On-chain Transaction & Graph Analytics*
 - (KDD 2024) **COMET: NFT Price Prediction with Wallet Profiling** [[Paper](https://doi.org/10.1145/3637528.3671621)] `Time-Series` `Graph` · *NFT* — *Price Forecasting & Market Analysis*
 - (KDD 2024) **MacroHFT: Memory Augmented Context-aware Reinforcement Learning On High Frequency Trading** [[Paper](https://doi.org/10.1145/3637528.3672064)] [[Code](https://github.com/ZONG0004/MacroHFT)] `RL` · *Crypto* — *Trading & Portfolio Management*
@@ -423,7 +411,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (WWW 2024 Companion) **When Crypto Economics Meet Graph Analytics and Learning** [[Paper](https://doi.org/10.1145/3589335.3651257)] `Tutorial` — *Surveys, Tutorials & Workshops*
 - (AAAI 2024) **Approval-Based Committee Voting in Practice: A Case Study of (over-)Representation in the Polkadot Blockchain** [[Paper](https://doi.org/10.1609/aaai.v38i9.28807)] `Social-Choice` · *Polkadot* — *Blockchain Systems & Infrastructure*
 - (AAAI 2024) **EarnHFT: Efficient Hierarchical Reinforcement Learning for High Frequency Trading** [[Paper](https://doi.org/10.1609/aaai.v38i13.29384)] [[Code](https://github.com/TradeMaster-NTU/EarnHFT)] `RL` · *Crypto* — *Trading & Portfolio Management*
-- (IJCAI 2024) **EFEVD: Enhanced Feature Extraction for Smart Contract Vulnerability Detection** [[Paper](https://doi.org/10.24963/ijcai.2024/469)] `Deep-Learning` `Vulnerability-Detection` · *Ethereum* — *Smart Contract Security & Analysis*
+- (IJCAI 2024) **EFEVD: Enhanced Feature Extraction for Smart Contract Vulnerability Detection** [[Paper](https://doi.org/10.24963/ijcai.2024/469)] `Deep-Learning` `Vulnerability-Detection` — *Smart Contract Security & Analysis*
 - (IJCAI 2024) **Survey on Strategic Mining in Blockchain: A Reinforcement Learning Approach** [[Paper](https://doi.org/10.24963/ijcai.2024/1170)] `RL` `Survey` — *Surveys, Tutorials & Workshops*
 - (IJCAI 2024) **Trade When Opportunity Comes: Price Movement Forecasting via Locality-Aware Attention and Iterative Refinement Labeling** ＊ [[Paper](https://doi.org/10.24963/ijcai.2024/678)] `Transformer` · *Crypto* — *Price Forecasting & Market Analysis*
 - (CIKM 2024) **Cryptocurrency Price Forecasting using Variational Autoencoder with Versatile Quantile Modeling** [[Paper](https://doi.org/10.1145/3627673.3680027)] `Generative` `Time-Series` · *Crypto* — *Price Forecasting & Market Analysis*
@@ -433,7 +421,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (ICDE 2024) **Authenticated Subgraph Matching in Hybrid-Storage Blockchains** [[Paper](https://doi.org/10.1109/icde60146.2024.00159)] `Query-Processing` — *Blockchain Systems & Infrastructure*
 - (ICDE 2024) **Efficient Partial Order Based Transaction Processing for Permissioned Blockchains** [[Paper](https://doi.org/10.1109/icde60146.2024.00152)] `Systems` · *Permissioned* — *Blockchain Systems & Infrastructure*
 - (ICDE 2024) **Enabling Efficient, Verifiable, and Secure Conjunctive Keyword Search in Hybrid-Storage Blockchains** [[Paper](https://doi.org/10.1109/icde60146.2024.00481)] `Query-Processing` — *Blockchain Systems & Infrastructure*
-- (ICDE 2024) **MuFuzz: Sequence-Aware Mutation and Seed Mask Guidance for Blockchain Smart Contract Fuzzing** [[Paper](https://doi.org/10.1109/icde60146.2024.00158)] [[Code](https://github.com/OMH4ck/mufuzz)] `Fuzzing` · *Ethereum* — *Smart Contract Security & Analysis*
+- (ICDE 2024) **MuFuzz: Sequence-Aware Mutation and Seed Mask Guidance for Blockchain Smart Contract Fuzzing** [[Paper](https://doi.org/10.1109/icde60146.2024.00158)] `Fuzzing` — *Smart Contract Security & Analysis*
 - (ICDE 2024) **Porygon: Scaling Blockchain via 3D Parallelism** [[Paper](https://doi.org/10.1109/icde60146.2024.00153)] `Systems` — *Blockchain Systems & Infrastructure*
 - (ICDE 2024) **SharDAG: Scaling DAG-Based Blockchains Via Adaptive Sharding** [[Paper](https://doi.org/10.1109/icde60146.2024.00165)] `Sharding` — *Blockchain Systems & Infrastructure*
 - (ICDE 2024) **SpotLess: Concurrent Rotational Consensus Made Practical Through Rapid View Synchronization** [[Paper](https://doi.org/10.1109/icde60146.2024.00157)] `Consensus` — *Blockchain Systems & Infrastructure*
@@ -447,7 +435,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 Papers that release a dataset or benchmark (also listed under their task above).
 
-- (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `LLM` `Agent` · *Ethereum*
+- (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `Agent` · *Ethereum*
 - (ICLR 2026) **CTBench: Cryptocurrency Time Series Generation Benchmark** [[Paper](https://openreview.net/forum?id=RzT2sombPD)] `Generative` `Time-Series` · *Crypto*
 - (KDD 2026) **DMind Benchmark: Toward a Holistic Assessment of LLM Capabilities across the Web3 Domain** [[Paper](https://doi.org/10.1145/3770855.3817512)] `LLM` · *Web3*
 - (WWW 2026 Companion) **Benchmarking Temporal Web3 Intelligence: Lessons from the FinSurvival 2025 Challenge** [[Paper](https://doi.org/10.1145/3774905.3795449)] `Survival-Analysis` · *DeFi*
@@ -456,8 +444,8 @@ Papers that release a dataset or benchmark (also listed under their task above).
 - (NeurIPS 2025 D&B) **The Temporal Graph of Bitcoin Transactions** [[Paper](https://openreview.net/forum?id=Xs7JM4VGHv)] [[Code](https://github.com/B1AAB/EBA)] `Temporal-Graph` · *Bitcoin*
 - (ICLR 2025 Workshop) **FinTSBridge: A New Evaluation Suite for Real-world Financial Prediction with Advanced Time Series Models** ＊ [[Paper](https://arxiv.org/abs/2503.06928)] `Time-Series` · *Crypto*
 - (EMNLP 2025) **SolEval: Benchmarking Large Language Models for Repository-level Solidity Smart Contract Generation** [[Paper](https://doi.org/10.18653/v1/2025.emnlp-main.218)] [[Code](https://github.com/pzy2000/SolEval)] `LLM` · *Ethereum*
-- (NeurIPS 2024 D&B) **Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html)] [[Code](https://github.com/Xtra-Computing/Cryptocurrency-Graphs-of-graphs)] `GNN` · *Multi-chain*
-- (ICLR 2024) **EX-Graph: A Pioneering Dataset Bridging Ethereum and X** [[Paper](https://openreview.net/forum?id=juE0rWGCJW)] `GNN` · *Ethereum*
+- (NeurIPS 2024 D&B) **Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html)] [[Code](https://github.com/Xtra-Computing/Cryptocurrency-Graphs-of-graphs)] · *Multi-chain*
+- (ICLR 2024) **EX-Graph: A Pioneering Dataset Bridging Ethereum and X** [[Paper](https://openreview.net/forum?id=juE0rWGCJW)] · *Ethereum*
 
 # How to Contribute
 
