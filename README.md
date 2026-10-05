@@ -267,7 +267,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 ## 2026
 
-- (NeurIPS 2026) **Market Regime Council for Dynamic Credit Assignment in Multi-Agent LLM Decision Systems** [[Paper](https://openreview.net/forum?id=xuhyMmn0D0)] `LLM` `Agent` · *Crypto* — *Trading & Portfolio Management*
 - (NeurIPS 2026) **RAMA: Resistance-Aware Multi-Hop Aggregation Graph Representation Learning for Robust Ethereum Account Classification** [[Paper](https://openreview.net/forum?id=E2j4hTCc0W)] `GNN` · *Ethereum* — *On-chain Transaction & Graph Analytics*
 - (NeurIPS 2026) **Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis** [[Paper](https://openreview.net/forum?id=0NgpgjG8bV)] `RL` `Symbolic-Execution` — *Smart Contract Security & Analysis*
 - (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `Agent` · *Ethereum* — *Smart Contract Security & Analysis*
