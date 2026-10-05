@@ -128,7 +128,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 *Address clustering, account classification, de-anonymization and transaction graph learning.*
 
-- (NeurIPS 2026) **RAMA: Resistance-Aware Multi-Hop Aggregation Graph Representation Learning for Robust Ethereum Account Classification** [[Paper](https://openreview.net/forum?id=E2j4hTCc0W)] `GNN` · *Ethereum*
 - (WWW 2026) **TGweaver: Synthesizing Transaction Graphs for De-anonymization Analysis** [[Paper](https://doi.org/10.1145/3774904.3792318)] `Data-Synthesis` · *Mixer*
 - (AAAI 2026) **IGT4ETH: An Isotropic Pre-trained Graph Transformer for Ethereum Account Classification** [[Paper](https://doi.org/10.1609/aaai.v40i28.39536)] [[Code](https://github.com/Camus-Code/IGT4ETH)] `GNN` `Pre-training` · *Ethereum*
 - (NeurIPS 2025 D&B) **MiNT: Multi-Network Transfer Benchmark for Temporal Graph Learning** [[Paper](https://openreview.net/forum?id=Za7IcsXIRV)] [[Code](https://github.com/benjaminnNgo/ScalingTGNs)] `Temporal-Graph` `Transfer-Learning` · *Ethereum*
