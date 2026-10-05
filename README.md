@@ -183,7 +183,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 *Vulnerability detection, program analysis, decompilation, code generation and auditing agents.*
 
-- (NeurIPS 2026) **Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis** [[Paper](https://openreview.net/forum?id=0NgpgjG8bV)] `RL` `Symbolic-Execution`
 - (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `Agent` · *Ethereum*
 - (AAAI 2026) **BugSweeper: Function-Level Detection of Smart Contract Vulnerabilities Using Graph Neural Networks** [[Paper](https://doi.org/10.1609/aaai.v40i1.37021)] `GNN` · *Ethereum*
 - (ACL 2026) **EVM-QuestBench: An Execution-Grounded Benchmark for Natural-Language Transaction Code Generation** [[Paper](https://doi.org/10.18653/v1/2026.acl-long.1642)] [[Code](https://github.com/OpenEdgeHQ/EVM-quest-bench)] `LLM` · *Ethereum*
