@@ -82,7 +82,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 *RL and LLM trading agents, high-frequency trading, portfolio management and arbitrage.*
 
-- (NeurIPS 2026) **Market Regime Council for Dynamic Credit Assignment in Multi-Agent LLM Decision Systems** [[Paper](https://openreview.net/forum?id=xuhyMmn0D0)] `LLM` `Agent` · *Crypto*
 - (ICLR 2026) **Trade in Minutes! Rationality-Driven Agentic System for Quantitative Financial Trading** ＊ [[Paper](https://openreview.net/forum?id=ROEwZAxqyS)] `LLM` `Agent` · *Crypto*
 - (KDD 2026) **FineFT: Efficient and Risk-Aware Ensemble Reinforcement Learning for Futures Trading** [[Paper](https://doi.org/10.1145/3770854.3780187)] `RL` · *Crypto*
 - (WWW 2026) **Analysis of CEX-DEX Arbitrage Opportunities with Hidden Markov Models** [[Paper](https://doi.org/10.1145/3774904.3792185)] `HMM` · *DEX*
