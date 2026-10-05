@@ -257,7 +257,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (WWW 2024 Companion) **CAAW'24: The 3rd International Cryptoasset Analytics Workshop** [[Paper](https://doi.org/10.1145/3589335.3641304)] `Workshop`
 - (WWW 2024 Companion) **Incentives in the Ether: Practical Cryptocurrency Economics & Security** [[Paper](https://doi.org/10.1145/3589335.3651268)] `Tutorial`
 - (WWW 2024 Companion) **When Crypto Economics Meet Graph Analytics and Learning** [[Paper](https://doi.org/10.1145/3589335.3651257)] `Tutorial`
-- (IJCAI 2024) **Survey on Strategic Mining in Blockchain: A Reinforcement Learning Approach** [[Paper](https://doi.org/10.24963/ijcai.2024/1170)] `RL` `Survey`
 
 # Papers by Year
 
