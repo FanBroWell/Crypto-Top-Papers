@@ -6,7 +6,7 @@
 
 NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE · SIGIR · WSDM · ACL · EMNLP
 
-![Papers](https://img.shields.io/badge/papers-152-blue) ![With Code](https://img.shields.io/badge/with%20code-29-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--05-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
+![Papers](https://img.shields.io/badge/papers-150-blue) ![With Code](https://img.shields.io/badge/with%20code-29-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--05-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
 
 </div>
 
@@ -30,9 +30,9 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
   - [On-chain Transaction & Graph Analytics](#on-chain-transaction--graph-analytics) (15)
   - [DeFi, MEV & Market Mechanisms](#defi-mev--market-mechanisms) (9)
   - [NFT, DAO & Web3 Ecosystem](#nft-dao--web3-ecosystem) (16)
-  - [Smart Contract Security & Analysis](#smart-contract-security--analysis) (19)
+  - [Smart Contract Security & Analysis](#smart-contract-security--analysis) (18)
   - [Blockchain Systems & Infrastructure](#blockchain-systems--infrastructure) (39)
-  - [Surveys, Tutorials & Workshops](#surveys-tutorials--workshops) (8)
+  - [Surveys, Tutorials & Workshops](#surveys-tutorials--workshops) (7)
 - [Papers by Year](#papers-by-year)
   - [2026](#2026)
   - [2025](#2025)
@@ -45,13 +45,13 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 | Venue | 2024 | 2025 | 2026 | Total |
 |:--|:-:|:-:|:-:|:-:|
-| NeurIPS | 2 | 5 | 1 | 8 |
+| NeurIPS | 2 | 5 | – | 7 |
 | ICML | – | – | 2 | 2 |
 | ICLR | 1 | 2 | 3 | 6 |
 | KDD | 5 | 4 | 3 | 12 |
 | WWW | 29 | 18 | 21 | 68 |
 | AAAI | 2 | 3 | 4 | 9 |
-| IJCAI | 3 | 3 | 2 | 8 |
+| IJCAI | 2 | 3 | 2 | 7 |
 | CIKM | 3 | 3 | – | 6 |
 | ICDM | – | 2 | – | 2 |
 | ICDE | 10 | 6 | 9 | 25 |
@@ -59,7 +59,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 | WSDM | – | 1 | – | 1 |
 | ACL | – | – | 2 | 2 |
 | EMNLP | 1 | 1 | – | 2 |
-| **Total** | **56** | **48** | **48** | **152** |
+| **Total** | **55** | **48** | **47** | **150** |
 
 # Papers by Task
 
@@ -264,7 +264,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 ## 2026
 
-- (NeurIPS 2026) **Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis** [[Paper](https://openreview.net/forum?id=0NgpgjG8bV)] `RL` `Symbolic-Execution` — *Smart Contract Security & Analysis*
 - (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `Agent` · *Ethereum* — *Smart Contract Security & Analysis*
 - (ICML 2026) **Scam2Prompt: A Scalable Framework for Auditing Malicious Scam Endpoints in Production LLMs** ＊ [[Paper](https://openreview.net/forum?id=jEQQBE30m1)] [[Code](https://github.com/Scam2Prompt/Scam2Prompt)] `LLM` · *Web3* — *Fraud, Scam & Attack Detection*
 - (ICLR 2026) **CTBench: Cryptocurrency Time Series Generation Benchmark** [[Paper](https://openreview.net/forum?id=RzT2sombPD)] `Generative` `Time-Series` · *Crypto* — *Price Forecasting & Market Analysis*
@@ -406,7 +405,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - (AAAI 2024) **Approval-Based Committee Voting in Practice: A Case Study of (over-)Representation in the Polkadot Blockchain** [[Paper](https://doi.org/10.1609/aaai.v38i9.28807)] `Social-Choice` · *Polkadot* — *Blockchain Systems & Infrastructure*
 - (AAAI 2024) **EarnHFT: Efficient Hierarchical Reinforcement Learning for High Frequency Trading** [[Paper](https://doi.org/10.1609/aaai.v38i13.29384)] [[Code](https://github.com/TradeMaster-NTU/EarnHFT)] `RL` · *Crypto* — *Trading & Portfolio Management*
 - (IJCAI 2024) **EFEVD: Enhanced Feature Extraction for Smart Contract Vulnerability Detection** [[Paper](https://doi.org/10.24963/ijcai.2024/469)] `Deep-Learning` `Vulnerability-Detection` — *Smart Contract Security & Analysis*
-- (IJCAI 2024) **Survey on Strategic Mining in Blockchain: A Reinforcement Learning Approach** [[Paper](https://doi.org/10.24963/ijcai.2024/1170)] `RL` `Survey` — *Surveys, Tutorials & Workshops*
 - (IJCAI 2024) **Trade When Opportunity Comes: Price Movement Forecasting via Locality-Aware Attention and Iterative Refinement Labeling** ＊ [[Paper](https://doi.org/10.24963/ijcai.2024/678)] `Transformer` · *Crypto* — *Price Forecasting & Market Analysis*
 - (CIKM 2024) **Cryptocurrency Price Forecasting using Variational Autoencoder with Versatile Quantile Modeling** [[Paper](https://doi.org/10.1145/3627673.3680027)] `Generative` `Time-Series` · *Crypto* — *Price Forecasting & Market Analysis*
 - (CIKM 2024) **Effective Illicit Account Detection on Large Cryptocurrency MultiGraphs** [[Paper](https://doi.org/10.1145/3627673.3679707)] [[Code](https://github.com/TommyDzh/DIAM)] `GNN` · *Crypto* — *Fraud, Scam & Attack Detection*
