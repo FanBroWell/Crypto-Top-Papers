@@ -6,7 +6,7 @@
 
 NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE · SIGIR · WSDM · ACL · EMNLP
 
-![Papers](https://img.shields.io/badge/papers-154-blue) ![With Code](https://img.shields.io/badge/with%20code-29-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--04-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
+![Papers](https://img.shields.io/badge/papers-152-blue) ![With Code](https://img.shields.io/badge/with%20code-29-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--05-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
 
 </div>
 
@@ -25,9 +25,9 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 - [Venue Statistics](#venue-statistics)
 - [Papers by Task](#papers-by-task)
   - [Price Forecasting & Market Analysis](#price-forecasting--market-analysis) (10)
-  - [Trading & Portfolio Management](#trading--portfolio-management) (15)
+  - [Trading & Portfolio Management](#trading--portfolio-management) (14)
   - [Fraud, Scam & Attack Detection](#fraud-scam--attack-detection) (22)
-  - [On-chain Transaction & Graph Analytics](#on-chain-transaction--graph-analytics) (16)
+  - [On-chain Transaction & Graph Analytics](#on-chain-transaction--graph-analytics) (15)
   - [DeFi, MEV & Market Mechanisms](#defi-mev--market-mechanisms) (9)
   - [NFT, DAO & Web3 Ecosystem](#nft-dao--web3-ecosystem) (16)
   - [Smart Contract Security & Analysis](#smart-contract-security--analysis) (19)
@@ -45,7 +45,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 | Venue | 2024 | 2025 | 2026 | Total |
 |:--|:-:|:-:|:-:|:-:|
-| NeurIPS | 2 | 5 | 3 | 10 |
+| NeurIPS | 2 | 5 | 1 | 8 |
 | ICML | – | – | 2 | 2 |
 | ICLR | 1 | 2 | 3 | 6 |
 | KDD | 5 | 4 | 3 | 12 |
@@ -59,7 +59,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 | WSDM | – | 1 | – | 1 |
 | ACL | – | – | 2 | 2 |
 | EMNLP | 1 | 1 | – | 2 |
-| **Total** | **56** | **48** | **50** | **154** |
+| **Total** | **56** | **48** | **48** | **152** |
 
 # Papers by Task
 
@@ -266,7 +266,6 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 ## 2026
 
-- (NeurIPS 2026) **RAMA: Resistance-Aware Multi-Hop Aggregation Graph Representation Learning for Robust Ethereum Account Classification** [[Paper](https://openreview.net/forum?id=E2j4hTCc0W)] `GNN` · *Ethereum* — *On-chain Transaction & Graph Analytics*
 - (NeurIPS 2026) **Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis** [[Paper](https://openreview.net/forum?id=0NgpgjG8bV)] `RL` `Symbolic-Execution` — *Smart Contract Security & Analysis*
 - (ICML 2026) **EVMbench: Evaluating AI Agents on Smart Contract Security** [[Paper](https://openreview.net/forum?id=K5S8N5NgD8)] [[Code](https://github.com/paradigmxyz/evmbench)] `Agent` · *Ethereum* — *Smart Contract Security & Analysis*
 - (ICML 2026) **Scam2Prompt: A Scalable Framework for Auditing Malicious Scam Endpoints in Production LLMs** ＊ [[Paper](https://openreview.net/forum?id=jEQQBE30m1)] [[Code](https://github.com/Scam2Prompt/Scam2Prompt)] `LLM` · *Web3* — *Fraud, Scam & Attack Detection*
