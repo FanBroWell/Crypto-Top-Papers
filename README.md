@@ -2,48 +2,50 @@
 
 # Crypto Top Papers
 
-**Cryptocurrency, blockchain and Web3 papers at CS top conferences**
+**简体中文** | [English](README_EN.md)
+
+**计算机顶会中的加密货币、区块链与 Web3 论文**
 
 NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE · SIGIR · WSDM · ACL · EMNLP
 
-![Papers](https://img.shields.io/badge/papers-150-blue) ![With Code](https://img.shields.io/badge/with%20code-29-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--05-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
+![Papers](https://img.shields.io/badge/papers-150-blue) ![With Code](https://img.shields.io/badge/with%20code-29-blueviolet) ![Updated](https://img.shields.io/badge/updated-2026--10--05-green) [![License](https://img.shields.io/badge/license-Apache--2.0-orange)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#如何贡献)
 
 </div>
 
-# About
+# 关于
 
-A curated list of **peer-reviewed** papers on cryptocurrency, blockchain and Web3 from 14 CS top conferences (2024–2026), with links to each paper and its code.
+本列表精选了 14 个计算机顶会（2024–2026）中**经过同行评审**的加密货币、区块链与 Web3 论文，并附论文和代码链接。
 
-- **Continuously updated.** New papers are added as each conference publishes its proceedings.
-- **Easy to scan.** Each paper is listed once under its main task, with method tags such as `GNN`, `LLM` and `RL` and chain tags such as *Bitcoin* and *Ethereum*. ＊ marks a general financial method that uses crypto data as a main dataset.
+- **持续更新。** 各会议公布论文集后，会陆续加入新论文。
+- **便于浏览。** 每篇论文只列在它的主要任务下，并标有 `GNN`、`LLM`、`RL` 等方法标签，以及 *Bitcoin*、*Ethereum* 等链标签。＊ 表示以加密货币数据为主要数据集的通用金融方法。
 
-Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-contribute)). If you find this repository helpful, consider leaving a ⭐
+欢迎通过 PR 推荐优质论文（见[如何贡献](#如何贡献)）。如果这个仓库对你有帮助，欢迎点个 ⭐
 
-# Table of Contents
+# <a id="table-of-contents"></a>目录
 
-- [About](#about)
-- [Venue Statistics](#venue-statistics)
-- [Papers by Task](#papers-by-task)
-  - [Price Forecasting & Market Analysis](#price-forecasting--market-analysis) (10)
-  - [Trading & Portfolio Management](#trading--portfolio-management) (14)
-  - [Fraud, Scam & Attack Detection](#fraud-scam--attack-detection) (22)
-  - [On-chain Transaction & Graph Analytics](#on-chain-transaction--graph-analytics) (15)
-  - [DeFi, MEV & Market Mechanisms](#defi-mev--market-mechanisms) (9)
-  - [NFT, DAO & Web3 Ecosystem](#nft-dao--web3-ecosystem) (16)
-  - [Smart Contract Security & Analysis](#smart-contract-security--analysis) (18)
-  - [Blockchain Systems & Infrastructure](#blockchain-systems--infrastructure) (39)
-  - [Surveys, Tutorials & Workshops](#surveys-tutorials--workshops) (7)
-- [Papers by Year](#papers-by-year)
+- [关于](#关于)
+- [会议统计](#会议统计)
+- [按任务分类](#papers-by-task)
+  - [价格预测与市场分析](#price-forecasting--market-analysis)（10 篇）
+  - [交易与投资组合管理](#trading--portfolio-management)（14 篇）
+  - [欺诈、诈骗与攻击检测](#fraud-scam--attack-detection)（22 篇）
+  - [链上交易与图分析](#on-chain-transaction--graph-analytics)（15 篇）
+  - [DeFi、MEV 与市场机制](#defi-mev--market-mechanisms)（9 篇）
+  - [NFT、DAO 与 Web3 生态](#nft-dao--web3-ecosystem)（16 篇）
+  - [智能合约安全与分析](#smart-contract-security--analysis)（18 篇）
+  - [区块链系统与基础设施](#blockchain-systems--infrastructure)（39 篇）
+  - [综述、教程与研讨会](#surveys-tutorials--workshops)（7 篇）
+- [按年份分类](#papers-by-year)
   - [2026](#2026)
   - [2025](#2025)
   - [2024](#2024)
-- [Datasets & Benchmarks](#datasets--benchmarks) (11)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
+- [数据集与基准](#datasets--benchmarks)（11 篇）
+- [如何贡献](#如何贡献)
+- [许可证](#许可证)
 
-# Venue Statistics
+# 会议统计
 
-| Venue | 2024 | 2025 | 2026 | Total |
+| 会议 | 2024 | 2025 | 2026 | 合计 |
 |:--|:-:|:-:|:-:|:-:|
 | NeurIPS | 2 | 5 | – | 7 |
 | ICML | – | – | 2 | 2 |
@@ -59,7 +61,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 | WSDM | – | 1 | – | 1 |
 | ACL | – | – | 2 | 2 |
 | EMNLP | 1 | 1 | – | 2 |
-| **Total** | **55** | **48** | **47** | **150** |
+| **合计** | **55** | **48** | **47** | **150** |
 
 # Papers by Task
 
@@ -439,24 +441,24 @@ Papers that release a dataset or benchmark (also listed under their task above).
 - (NeurIPS 2024 D&B) **Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets** [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html)] [[Code](https://github.com/Xtra-Computing/Cryptocurrency-Graphs-of-graphs)] · *Multi-chain*
 - (ICLR 2024) **EX-Graph: A Pioneering Dataset Bridging Ethereum and X** [[Paper](https://openreview.net/forum?id=juE0rWGCJW)] · *Ethereum*
 
-# How to Contribute
+# 如何贡献
 
-This list is updated continuously, and contributions are welcome.
+本列表持续更新，欢迎贡献。
 
-**Requirement**: The paper is accepted at one of the conferences listed at the top.
+**要求**：论文已被顶部列出的会议之一录用。
 
-**Steps**:
+**步骤**：
 
-1. Fork this repository and clone your fork.
-2. Add the paper to `README.md`, following the format of the existing entries.
-3. Push to your fork and open a pull request.
+1. Fork 本仓库，并克隆你的 fork。
+2. 按现有条目的格式，把论文同时加入 `README.md` 和 `README_EN.md`（两个文件的论文列表相同）。
+3. 推送到你的 fork，然后提交 Pull Request。
 
-# License
+# 许可证
 
-Released under the [Apache License 2.0](LICENSE).
+本项目以 [Apache License 2.0](LICENSE) 发布。
 
 <div align="center">
 
-If you find this list useful, please consider giving it a star. It helps others discover these papers.
+如果这个列表对你有用，欢迎点个 star，让更多人看到这些论文。
 
 </div>
