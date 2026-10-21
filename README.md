@@ -25,6 +25,7 @@ NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE �
 
 - [关于](#关于)
 - [会议统计](#会议统计)
+- [Star History](#star-history)
 - [按任务分类](#papers-by-task)
   - [价格预测与市场分析](#price-forecasting--market-analysis)（10 篇）
   - [交易与投资组合管理](#trading--portfolio-management)（14 篇）
@@ -62,6 +63,16 @@ NeurIPS · ICML · ICLR · KDD · WWW · AAAI · IJCAI · CIKM · ICDM · ICDE �
 | ACL | – | – | 2 | 2 |
 | EMNLP | 1 | 1 | – | 2 |
 | **合计** | **55** | **48** | **47** | **150** |
+
+# Star History
+
+[![Star History Chart](.github/assets/star-history.svg)](https://github.com/FanBroWell/Crypto-Top-Papers/stargazers)
+
+[![GitHub Stars](https://img.shields.io/github/stars/FanBroWell/Crypto-Top-Papers?style=for-the-badge&logo=github&label=Stars)](https://github.com/FanBroWell/Crypto-Top-Papers/stargazers)
+
+曲线由 GitHub Actions 每日自动更新。
+
+如果这个列表对你有帮助，**点个 Star 让更多人看到** ⭐
 
 # Papers by Task
 

@@ -25,6 +25,7 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 
 - [About](#about)
 - [Venue Statistics](#venue-statistics)
+- [Star History](#star-history)
 - [Papers by Task](#papers-by-task)
   - [Price Forecasting & Market Analysis](#price-forecasting--market-analysis) (10)
   - [Trading & Portfolio Management](#trading--portfolio-management) (14)
@@ -62,6 +63,16 @@ Feel free to suggest decent papers via a PR (see [How to Contribute](#how-to-con
 | ACL | – | – | 2 | 2 |
 | EMNLP | 1 | 1 | – | 2 |
 | **Total** | **55** | **48** | **47** | **150** |
+
+# Star History
+
+[![Star History Chart](.github/assets/star-history.svg)](https://github.com/FanBroWell/Crypto-Top-Papers/stargazers)
+
+[![GitHub Stars](https://img.shields.io/github/stars/FanBroWell/Crypto-Top-Papers?style=for-the-badge&logo=github&label=Stars)](https://github.com/FanBroWell/Crypto-Top-Papers/stargazers)
+
+The chart is refreshed daily by GitHub Actions.
+
+If this list helps you, **give it a Star so more people can find it** ⭐
 
 # Papers by Task
 
