@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
   <title id="title">FanBroWell/Crypto-Top-Papers Star History</title>
-  <desc id="desc">FanBroWell/Crypto-Top-Papers has 3 stars recorded from 2026-10-04 through 2026-10-21.</desc>
+  <desc id="desc">FanBroWell/Crypto-Top-Papers has 3 stars recorded from 2026-10-04 through 2026-10-22.</desc>
   <style>
     .background { fill: #ffffff; }
     .title { fill: #1f2328; font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -37,8 +37,8 @@
   <line class="grid" x1="70" y1="90.00" x2="775" y2="90.00"/>
   <text class="axis-label" x="58" y="94.00" text-anchor="end">3</text>
   <text class="axis-label" x="70.00" y="418" text-anchor="start">2026-10-04</text>
-  <text class="axis-label" x="443.24" y="418" text-anchor="middle">2026-10-13</text>
-  <text class="axis-label" x="775.00" y="418" text-anchor="end">2026-10-21</text>
-  <path class="star-area" d="M 70.00 390.00 L 70.00 290.00 L 111.47 290.00 L 152.94 290.00 L 194.41 290.00 L 235.88 290.00 L 277.35 290.00 L 318.82 290.00 L 360.29 290.00 L 401.76 290.00 L 443.24 290.00 L 484.71 290.00 L 526.18 290.00 L 567.65 190.00 L 609.12 190.00 L 650.59 190.00 L 692.06 90.00 L 733.53 90.00 L 775.00 90.00 L 775.00 390.00 Z"/>
-  <path class="star-line" d="M 70.00 290.00 L 111.47 290.00 L 152.94 290.00 L 194.41 290.00 L 235.88 290.00 L 277.35 290.00 L 318.82 290.00 L 360.29 290.00 L 401.76 290.00 L 443.24 290.00 L 484.71 290.00 L 526.18 290.00 L 567.65 190.00 L 609.12 190.00 L 650.59 190.00 L 692.06 90.00 L 733.53 90.00 L 775.00 90.00"/>
+  <text class="axis-label" x="422.50" y="418" text-anchor="middle">2026-10-13</text>
+  <text class="axis-label" x="775.00" y="418" text-anchor="end">2026-10-22</text>
+  <path class="star-area" d="M 70.00 390.00 L 70.00 290.00 L 109.17 290.00 L 148.33 290.00 L 187.50 290.00 L 226.67 290.00 L 265.83 290.00 L 305.00 290.00 L 344.17 290.00 L 383.33 290.00 L 422.50 290.00 L 461.67 290.00 L 500.83 290.00 L 540.00 190.00 L 579.17 190.00 L 618.33 190.00 L 657.50 90.00 L 696.67 90.00 L 735.83 90.00 L 775.00 90.00 L 775.00 390.00 Z"/>
+  <path class="star-line" d="M 70.00 290.00 L 109.17 290.00 L 148.33 290.00 L 187.50 290.00 L 226.67 290.00 L 265.83 290.00 L 305.00 290.00 L 344.17 290.00 L 383.33 290.00 L 422.50 290.00 L 461.67 290.00 L 500.83 290.00 L 540.00 190.00 L 579.17 190.00 L 618.33 190.00 L 657.50 90.00 L 696.67 90.00 L 735.83 90.00 L 775.00 90.00"/>
 </svg>
